@@ -1,0 +1,299 @@
+﻿
+@using QueryTool
+@using System.Collections
+
+
+ @model IndexViewModel;
+
+  <link href="https://cdn.jsdelivr.net/npm/&#64;mdi/font&#64;4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+@{
+    ViewData["Title"] = "Home Page";
+    
+  //  @Model.teste
+
+   
+   
+
+
+        List<SelectListItem> listaDimensao = PopulateDimensoes();
+        List<SelectListItem> listaFatos = PopulateFatos();    
+}
+
+<div class="text-center">
+                            <h1 class="display-4">XXXXX @ViewBag.Nome</h1>
+                            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+                            </div>
+
+<form asp-page-handler="PNP" method="POST">
+
+    <table style="width:700px; border: 0px solid black" >
+    <tr>
+        <td  style="vertical-align:top" WIDTH=50%>
+                        
+                                <div class="multipleSelection">
+                                    <div class="selectBox" 
+                                        onclick="showCheckboxesDimensao()">
+                                        <select>
+                                            <option>Selecione Dimensões</option>
+                                        </select>
+                                        <div class="overSelect"></div>
+                                    </div>
+                        
+                                    <div id="checkBoxesDimensao">
+
+                                        @foreach (var item in listaDimensao){
+                                                
+
+                                                    <label for="first">
+                                                    <input id="D"+@i type="checkbox" name="Dimensao" value="@item.Value" checked="@item.Selected"/>
+                                                    @item.Text
+                                                    </label>
+
+                                                }
+                                    
+                                </div>
+                                </div>
+                                
+        </td>
+        
+
+        <td style="vertical-align:top"  WIDTH=50%>
+                                    <div class="multipleSelection">
+                                        <div class="selectBox" 
+                                            onclick="showCheckboxesFato()">
+                                            <select>
+                                                <option>Selecione Fatos</option>
+                                            </select>
+                                            <div class="overSelect"></div>
+                                        </div>
+                            
+                                        <div id="checkBoxesFato">
+
+                                            @foreach (var item in listaFatos){
+                                                    
+
+                                                        <label for="first">
+                                                        <input id="@item.Value" type="checkbox" name="Fato" value="@item.Value" checked="@item.Selected"/>
+                                                        @item.Text
+                                                        </label>
+
+                                                    }
+                                        
+                                    </div>
+                                    </div>
+
+         </td>
+        </tr>
+        </table>
+        <p></p>
+         <button id="button1" type="submit"  class="btn btn-success" name="acao" value="processar"  asp-page-handler="Submit" >Processar</button>
+<p></p>
+                         
+           
+       </form>
+         <form asp-page-handler="PNP" method="Post">
+            @if (Model.Tabela.Dimnesao != null)
+            {
+                
+            
+
+            @for (int i = 0; i < Model.Tabela.Dimnesao.Length; i++)
+            {
+                    <input id="D"+@i type="checkbox" name="Dimensao" value="@Model.Tabela.Dimnesao[i]" checked="true" />
+                                               //     Console.WriteLine(@Model.Tabela.Dimnesao[i]);
+            } 
+            }
+             @if (Model.Tabela.Fato != null)
+            {
+
+             @for (int i = 0; i < Model.Tabela.Fato.Length; i++)
+            {
+                    <input id="F"+@i type="checkbox" name="Fato" value="@Model.Tabela.Fato[i]" checked="true" />
+                                               //     Console.WriteLine(@Model.Tabela.Dimnesao[i]);
+            } 
+            }
+            
+            
+                                                
+
+                                                 
+                                                
+                                                   
+
+                                                
+            
+           <button id="button1" type="submit"  class="btn btn-success"  name="acao" value="csv" asp-page-handler="Submit" >Gera CSV</button>
+
+        </form>
+        @if(ViewBag.Arquivo !=null){
+
+            Console.Write(ViewBag.Arquivo);
+
+         <a href=@ViewBag.Arquivo download="pnp_academicosPNP.txt" title="Download CSV PNP" target="_blank">  Download CSV</a>
+         }
+
+<div id="app">
+    <div class="text-center">
+    
+     <div>
+       <v-card>
+   
+          <v-card-title class="justify-center">Modulo de exportaçao</v-card-title>
+        
+          <v-expansion-panels>
+          
+          </v-expansion-panels>
+  
+          
+          <v-data-table
+          :headers="headers"
+          :items="desserts"
+         
+          :items-per-page="5"
+          class="elevation-1"
+        ></v-data-table>
+                  <v-btn
+                  v-on:click="greet"
+        block
+        dark
+        color="#27AE60">
+    Baixar CSV :disquete:
+  </v-btn>
+      
+        </v-card>
+    </v-container>
+          
+       
+    </div>
+</div>
+</v-app>
+        <p></p>
+      
+    
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+
+@{
+
+
+
+
+      List<SelectListItem> PopulateDimensoes()
+    {
+        List<SelectListItem> items = new List<SelectListItem>();
+        DimensaoPNP dimensaoPNP = new DimensaoPNP();
+
+        ArrayList listaD = dimensaoPNP.listaDimensoes;
+        foreach (var item in listaD)
+
+        {
+            //    dimensoes = dimensoes + "\'" + item.ToString().Trim().Replace("\'","")+"\',";
+
+            items.Add(new SelectListItem
+            {
+                Text = item.ToString(),
+                Value = item.ToString()
+            });
+        }
+
+
+        //     itemsDimensao = items;
+        //   Console.WriteLine(dimensoes);
+        return items;
+    }
+
+     static List<SelectListItem> PopulateFatos()
+    {
+        List<SelectListItem> items = new List<SelectListItem>();
+        FatosPNP fatosPNP = new FatosPNP();
+
+        ArrayList listaF = fatosPNP.listaFatos;
+        foreach (var item in listaF)
+
+        {
+
+
+            FatosValue fatosValue = (FatosValue)item;
+            items.Add(new SelectListItem
+            {
+                Text = fatosValue.Text,
+                Value = fatosValue.Value
+            });
+        }
+
+
+
+
+        return items;
+    }
+
+}
+
+
+
+<script type="text/javascript" charset="utf-8">
+  let app = new Vue({
+      el: '#app',
+       vuetify: new Vuetify({
+
+          icons: {
+        iconFont: "md",
+    },
+       }),
+    
+    
+    
+   data: {  
+    teste :['dudu'],
+    selectedDim :[],
+    selectedFact: ['John'],
+    array: [],
+    headers: [
+       
+        @Html.Raw(Model.Tabela.colunas)
+ 
+        
+        ],
+        desserts: [
+        @Html.Raw(Model.Tabela.linhas)
+        
+        ]
+   
+   
+   },
+   methods: {
+    greet: function (event) {
+
+         $.ajax({
+            type: "GET",
+            url: "./Search",
+            data:  $("#query").val(),
+            dataType: "json",
+            success: OnSuccess,
+            failure: function (response) {
+                alert(response.d);
+            }
+        });
+     
+     
+    }
+   
+   }
+  }
+  )
+
+    
+function setHourglass()
+ {
+   document.body.style.cursor = 'wait';
+ }
+  
+   
+
+
+
+
+</script>

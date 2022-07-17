@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\pnp-exportar-mvc-csv.bundle.scp.css",
+      "PackagePath": "staticwebassets\\pnp-exportar-mvc-csv.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNP6BxvXIZn2gg.txt",
+      "PackagePath": "staticwebassets\\PNP6BxvXIZn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPAxKaO4Zn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPAxKaO4Zn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPEztIyYdn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPEztIyYdn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPHuFFVIhn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPHuFFVIhn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPMookHoZn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPMookHoZn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPT8vCSYhn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPT8vCSYhn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPcjWSVYZn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPcjWSVYZn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPhQx0PIhn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPhQx0PIhn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPoWhg_4Vn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPoWhg_4Vn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPuGoV_oVn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPuGoV_oVn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPxF3Owodn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPxF3Owodn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PNPyjxAQIZn2gg.txt",
+      "PackagePath": "staticwebassets\\PNPyjxAQIZn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpPNPC3PLoohn2gg.txt",
+      "PackagePath": "staticwebassets\\PnpPNPC3PLoohn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpPNPhoE8oYhn2gg.txt",
+      "PackagePath": "staticwebassets\\PnpPNPhoE8oYhn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNP3B3Qs4tn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNP3B3Qs4tn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNP8qlJ1otn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNP8qlJ1otn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNPakZeaoxn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNPakZeaoxn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNPj84MrYhn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNPj84MrYhn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNPopSTrYtn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNPopSTrYtn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNPu6trh4tn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNPu6trh4tn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNPuiQQaYtn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNPuiQQaYtn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\PNPxQslMIxn2gg.txt",
+      "PackagePath": "staticwebassets\\Pnp\\PNPxQslMIxn2gg.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\js\\vue.js",
+      "PackagePath": "staticwebassets\\js\\vue.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.pnp-exportar-mvc-csv.props",
+      "PackagePath": "build\\pnp-exportar-mvc-csv.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.pnp-exportar-mvc-csv.props",
+      "PackagePath": "buildMultiTargeting\\pnp-exportar-mvc-csv.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.pnp-exportar-mvc-csv.props",
+      "PackagePath": "buildTransitive\\pnp-exportar-mvc-csv.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.pnp-exportar-mvc-csv.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
