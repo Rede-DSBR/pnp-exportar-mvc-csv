@@ -389,29 +389,46 @@ public class PnpController : Controller
     public async void gravaCSV(String arquivo,String colunas,String dimensoesT,String fatosT,String[] Ano){
 
 
-        if(dimensoesT == null){
+        if(dimensoesT == null || dimensoesT.Length==0){
           
      
 
-            dimensoesT =  "'dCalendário'[Ano],d_IES[Região, d_IES[UF],d_IES[Estado],d_IES[Organização Acadêmica],dimUnidade[Instituicao]"+
+            dimensoesT =  "'dCalendário'[Ano],d_IES[Região], d_IES[UF],d_IES[Estado],d_IES[Organização Acadêmica],dimUnidade[Instituicao],"+
                          "d_IES[Instituição (Nome)],dimCurso[nomeCurso],";
            
 
             fatosT=
-             "\"Número de cursos\", [Número de cursos],"+
-             "\"Número de concluintes\", [Número de concluintes],"+
-            "\"Número de ingressantes\", [Número de ingressantes],"+
-            "\"Número de inscritos\", [Número de inscritos]"+
-             "\"Número de Matrículas\", [Número de Matrículas],"+
+             "\"Número de cursos\", [Número de cursos];"+
+             "\"Número de concluintes\", [Número de concluintes];"+
+            "\"Número de ingressantes\", [Número de ingressantes];"+
+            "\"Número de inscritos\", [Número de inscritos];"+
+             "\"Número de Matrículas\", [Número de Matrículas];"+
             "\"Número de vagas\", [Número de vagas],";
-           
 
-        
-        
-        
+            colunas = colunas + dimensoesT;
 
+            string[] s = fatosT.Split(";");
+            for (int i = 0; i < s.Length; i++)
+            {
+
+                string[] temp = s[i].Split(",");
+
+
+                colunas = colunas + temp[0].Replace("\"", "") + ";";
+            }
+            fatosT = fatosT.Replace(";", ",");
 
         }
+
+          
+
+
+
+
+
+
+        
+        Console.WriteLine("xxxxxxxyxxx"+dimensoesT.Length);
 
         string nameFile = "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\";
             fatosT = fatosT.ToString().Substring(0,fatosT.Length-1);
@@ -446,6 +463,8 @@ public class PnpController : Controller
 
                     FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
                     ArrayList listaPNP1 = facadeCargaDax.executeDaxQueryDinamicPNP(dimensoesT, fatosT, filter, "", 1,40000);
+
+                    
                     int c=0;
 
 

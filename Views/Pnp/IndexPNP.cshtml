@@ -22,7 +22,7 @@
 }
 
 <div class="text-center">
-                            <h1 class="display-4">Módulo de Exportação de Dados da PNP</h1>
+                            <h1 class="display-5">Módulo de Exportação de Dados da PNP</h1>
                             <p></a>.</p>
                             </div>
 
@@ -84,6 +84,7 @@
           </tr>
         <tr>
         <td style="vertical-align:top"  WIDTH=50%>
+             <p></p>
              <div id="listA" class="dropdown-check-listA" tabindex="100">
                                 <span class="anchorA">Selecione Filtro Anos</span>
                                  <ul class="items">
@@ -122,7 +123,7 @@
         <p></p>
          <button id="button1" type="submit"  class="btn btn-success" name="acao" value="processar"  asp-page-handler="Submit" >Processar</button>
 <p></p>
-                         
+              
            
        </form>
          <form asp-page-handler="PNP" method="Post">
@@ -171,6 +172,10 @@
             Console.Write(ViewBag.Arquivo);
 
          <a href=@ViewBag.Arquivo download="pnp_academicosPNP.txt" title="Download CSV PNP" target="_blank">  Download CSV</a>
+         
+         <p></p>
+
+         <a href=@ViewBag.Arquivo download="pnp_academicosPNP.txt" title="Dicionário de Dados" target="_blank">  Dicionário de Dados</a>
          }
 
 <div id="app">
