@@ -43,7 +43,7 @@ public class PnpController : Controller
     public IActionResult IndexPNP1(string[] Dimensao1)
     {  
            ViewBag.Nome = "teste";
-             Console.WriteLine("xxx"+Dimensao1[0]);
+           //  Console.WriteLine("xxx"+Dimensao1[0]);
           //    processsaDAX(this.tempDimensao, this.tempFato);
             var model = new IndexViewModel
 	        {
@@ -67,7 +67,7 @@ public class PnpController : Controller
         // this.tempDimensao.CopyTo( Dimensao);
         //this.tempDimensao = Fato;
 
-        processsaDAX(null, null);
+        processsaDAX(null, null,null);
 
       
         ViewBag.Nome = "teste";
@@ -99,12 +99,12 @@ public class PnpController : Controller
   }  
 
  [HttpPost]
-  public IActionResult IndexPNP(string[] Dimensao, string[] Fato, string acao)
+  public IActionResult IndexPNP(string[] Dimensao, string[] Fato, string[] Ano, string acao)
   {
 
+
+
        
-
-
 
         if(acao.Equals("csv")){
             String dimensoesT = "";
@@ -128,7 +128,9 @@ public class PnpController : Controller
                         .TrimEnd('=');
 
             String arquivo = "PNP" + idFile + ".txt";
-            this.gravaCSV(arquivo,dimensoesT, fatosT);
+            String colunas =   montaColunas(Dimensao,Fato)[1];
+            Console.WriteLine(colunas);
+            this.gravaCSV(arquivo,colunas,dimensoesT, fatosT,Ano);
 
             ViewBag.Arquivo = arquivo;
 
@@ -138,11 +140,11 @@ public class PnpController : Controller
         // this.tempDimensao.CopyTo( Dimensao);
         //this.tempDimensao = Fato;
         if((Dimensao.Length)==0 || (Fato.Length)==0){
-            processsaDAX(null, null);
+            processsaDAX(null, null,null);
         }else
         {
 
-            processsaDAX(Dimensao, Fato);
+            processsaDAX(Dimensao, Fato,Ano);
         }
 
 
@@ -165,6 +167,8 @@ public class PnpController : Controller
         model.Tabela.Dimnesao = Dimensao;
         model.Tabela.Fato = Fato;
 
+        model.Tabela.Ano = Ano;
+
         return View(model);
 
      //  HttpUtility.HtmlEncode("Dimen " + name + ", NumTimes is: " + numTimes);
@@ -174,10 +178,10 @@ public class PnpController : Controller
      
   }    
 
-    public IActionResult IndexPNPSubmit(string[] Dimensao, string[] Fato)
+    public IActionResult IndexPNPSubmit(string[] Dimensao, string[] Fato,string[] Ano)
     {
         Console.WriteLine("entrei");
-        processsaDAX(Dimensao, Fato);
+        processsaDAX(Dimensao, Fato,Ano);
         return View();
     }
 
@@ -195,7 +199,7 @@ public class PnpController : Controller
 
 
 
-    public  void processsaDAX(string[] Dimensao_, string[] Fato_)
+    public  void processsaDAX(string[] Dimensao_, string[] Fato_,string[] Ano_)
     {
 
 
@@ -242,13 +246,27 @@ public class PnpController : Controller
             }
         }
 
-     
 
 
+        string filter = "";
+
+        if (Ano_ != null)
+        {
+
+            string anos = "";
+            for (int i = 0; i < Ano_.Length; i++)
+            {
+                anos = anos + Ano_[i] + ",";
 
 
-        string filter = "ALL( 'dCalendário'[Ano] ),'dCalendário'[Ano] IN {2021,2020};";
-        filter = filter + "ALL( d_IES[UF] ),d_IES[UF] IN {\"BA\",\"PB\"}";
+            }
+            if (anos.Length != 0)
+            {
+                filter = "ALL( 'dCalendário'[Ano] ),'dCalendário'[Ano] IN {" + anos.Substring(0, anos.Length - 1) + "}";
+            }
+
+        }
+        //filter = filter + "ALL( d_IES[UF] ),d_IES[UF] IN {\"BA\",\"PB\"}";
 
         
 
@@ -263,7 +281,7 @@ public class PnpController : Controller
 
         }
 
-        String colunas = montaColunas(Dimensao_,Fato_);
+        String colunas = montaColunas(Dimensao_,Fato_)[0];
         Console.WriteLine(colunas);
 
         this.colunasTabela = colunas;
@@ -280,7 +298,7 @@ public class PnpController : Controller
 
 
 
-        ArrayList listaPNP =facadeCargaDax.executeDaxQueryDinamicPNP(dimensoesT, fatosT, "", "", 1, 10);
+        ArrayList listaPNP =facadeCargaDax.executeDaxQueryDinamicPNP(dimensoesT, fatosT, filter, "", 1, 100);
 
         string linhas = montaLinhas(listaPNP);
 
@@ -340,15 +358,16 @@ public class PnpController : Controller
 
     }
 
-    public string montaColunas(string[] Dimensao_,string[] Fato_)
+    public string[] montaColunas(string[] Dimensao_,string[] Fato_)
     {
 
-        string Colunas = "";
+        string[] Colunas = new string[2];
         int c = 0;
         for(int i=0;i<Dimensao_.Length;i++)
         {
 
-            Colunas = Colunas + "{text:'" + Dimensao_[i].Trim().Replace("\'","") + "', align:'start',sortable: false, value: 'c" + c + "',},";
+            Colunas[0] = Colunas[0] + "{text:'" + Dimensao_[i].Trim().Replace("\'","") + "', align:'start',sortable: false, value: 'c" + c + "',},";
+            Colunas[1] = Colunas[1] + Dimensao_[i].Trim().Replace("\'", "") + ";";
             c = c + 1;
         }
          for(int i=0;i<Fato_.Length;i++)
@@ -356,7 +375,8 @@ public class PnpController : Controller
 
             string[] temp = Fato_[i].Split(",");
 
-            Colunas = Colunas + "{text:'" + temp[0].Replace("\"","") + "', align:'start',sortable: false, value: 'c" + c + "',},";
+            Colunas[0] = Colunas[0] + "{text:'" + temp[0].Replace("\"","") + "', align:'start',sortable: false, value: 'c" + c + "',},";
+            Colunas[1] = Colunas[1] + temp[0].Replace("\"", "") + ";";
             c = c + 1;
         }
         return Colunas;
@@ -366,18 +386,66 @@ public class PnpController : Controller
 
     }
 
-    public async void gravaCSV(String arquivo,String dimensoesT,String fatosT){
+    public async void gravaCSV(String arquivo,String colunas,String dimensoesT,String fatosT,String[] Ano){
+
+
+        if(dimensoesT == null){
+          
+     
+
+            dimensoesT =  "'dCalendário'[Ano],d_IES[Região, d_IES[UF],d_IES[Estado],d_IES[Organização Acadêmica],dimUnidade[Instituicao]"+
+                         "d_IES[Instituição (Nome)],dimCurso[nomeCurso],";
+           
+
+            fatosT=
+             "\"Número de cursos\", [Número de cursos],"+
+             "\"Número de concluintes\", [Número de concluintes],"+
+            "\"Número de ingressantes\", [Número de ingressantes],"+
+            "\"Número de inscritos\", [Número de inscritos]"+
+             "\"Número de Matrículas\", [Número de Matrículas],"+
+            "\"Número de vagas\", [Número de vagas],";
+           
+
+        
+        
+        
+
+
+        }
+
         string nameFile = "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\Pnp\\";
             fatosT = fatosT.ToString().Substring(0,fatosT.Length-1);
              dimensoesT  = dimensoesT.ToString().Substring(0,dimensoesT.Length-1);
 
+        string filter = "";
+
+
+
+        if (Ano != null)
+        {
+
+            string anos = "";
+            for (int i = 0; i < Ano.Length; i++)
+            {
+                anos = anos + Ano[i] + ",";
+
+
+            }
+            if (anos.Length != 0)
+            {
+                filter = "ALL( 'dCalendário'[Ano] ),'dCalendário'[Ano] IN {" + anos.Substring(0, anos.Length - 1) + "}";
+            }
+
+        }
+
            
-        using StreamWriter file = new(nameFile +arquivo);
-                    await file.WriteLineAsync("colunas");
+                     using StreamWriter file = new(nameFile +arquivo);
+      
+                    await file.WriteLineAsync(colunas.Substring(0,colunas.Length-1));
                     int cont=0;
 
                     FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
-                    ArrayList listaPNP1 = facadeCargaDax.executeDaxQueryDinamicPNP(dimensoesT, fatosT, "", "", 1,40000);
+                    ArrayList listaPNP1 = facadeCargaDax.executeDaxQueryDinamicPNP(dimensoesT, fatosT, filter, "", 1,40000);
                     int c=0;
 
 

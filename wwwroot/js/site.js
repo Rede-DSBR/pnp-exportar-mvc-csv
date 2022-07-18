@@ -38,3 +38,32 @@ if (show) {
     show = true;
 }
 }
+
+
+
+var checkList = document.getElementById('listD');
+checkList.getElementsByClassName('anchorD')[0].onclick = function(evt) {
+  if (checkList.classList.contains('visible'))
+    checkList.classList.remove('visible');
+  else
+    checkList.classList.add('visible');
+}
+
+var checkListF = document.getElementById('listF');
+checkListF.getElementsByClassName('anchorD')[0].onclick = function(evt) {
+  if (checkListF.classList.contains('visible'))
+    checkListF.classList.remove('visible');
+  else
+    checkListF.classList.add('visible');
+}
+
+
+var checkListA = document.getElementById('listA');
+checkListA.getElementsByClassName('anchorA')[0].onclick = function(evt) {
+  if (checkListA.classList.contains('visible'))
+    checkListA.classList.remove('visible');
+  else
+    checkListA.classList.add('visible');
+}
+
+

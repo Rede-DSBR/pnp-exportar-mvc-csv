@@ -17,12 +17,13 @@
 
 
         List<SelectListItem> listaDimensao = PopulateDimensoes();
-        List<SelectListItem> listaFatos = PopulateFatos();    
+        List<SelectListItem> listaFatos = PopulateFatos(); 
+        List<SelectListItem> listaAnos = PopulateAnosPNP(); 
 }
 
 <div class="text-center">
-                            <h1 class="display-4">XXXXX @ViewBag.Nome</h1>
-                            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+                            <h1 class="display-4">Módulo de Exportação de Dados da PNP</h1>
+                            <p></a>.</p>
                             </div>
 
 <form asp-page-handler="PNP" method="POST">
@@ -31,59 +32,91 @@
     <tr>
         <td  style="vertical-align:top" WIDTH=50%>
                         
-                                <div class="multipleSelection">
-                                    <div class="selectBox" 
-                                        onclick="showCheckboxesDimensao()">
-                                        <select>
-                                            <option>Selecione Dimensões</option>
-                                        </select>
-                                        <div class="overSelect"></div>
-                                    </div>
-                        
-                                    <div id="checkBoxesDimensao">
+                            
 
-                                        @foreach (var item in listaDimensao){
+
+
+                                <div id="listD" class="dropdown-check-listD" tabindex="100">
+                                <span class="anchorD">Selecione Dimensões</span>
+                                 <ul class="items">
+                                    @foreach (var item in listaDimensao){
                                                 
 
-                                                    <label for="first">
-                                                    <input id="D"+@i type="checkbox" name="Dimensao" value="@item.Value" checked="@item.Selected"/>
+                                                     <li>
+                                                    <input id="D" type="checkbox" name="Dimensao" value="@item.Value" checked="@item.Selected"/>
                                                     @item.Text
-                                                    </label>
+                                                     </li>
+                                                   
+                                                 
 
                                                 }
-                                    
-                                </div>
-                                </div>
+   
+                                </ul>
+                         </div>
                                 
         </td>
+        </tr>
+        <tr>
         
 
         <td style="vertical-align:top"  WIDTH=50%>
-                                    <div class="multipleSelection">
-                                        <div class="selectBox" 
-                                            onclick="showCheckboxesFato()">
-                                            <select>
-                                                <option>Selecione Fatos</option>
-                                            </select>
-                                            <div class="overSelect"></div>
-                                        </div>
-                            
-                                        <div id="checkBoxesFato">
+            <p></p>
+                            <div id="listF" class="dropdown-check-listD" tabindex="100">
+                                <span class="anchorD">Selecione Fatos PNP*</span>
+                                 <ul class="items">
 
                                             @foreach (var item in listaFatos){
                                                     
 
-                                                        <label for="first">
+                                                         <li>
                                                         <input id="@item.Value" type="checkbox" name="Fato" value="@item.Value" checked="@item.Selected"/>
                                                         @item.Text
-                                                        </label>
+                                                         </li>
 
                                                     }
+                                        </ul>
                                         
                                     </div>
-                                    </div>
+                                    
 
          </td>
+         </tr>
+          </tr>
+        <tr>
+        <td style="vertical-align:top"  WIDTH=50%>
+             <div id="listA" class="dropdown-check-listA" tabindex="100">
+                                <span class="anchorA">Selecione Filtro Anos</span>
+                                 <ul class="items">
+                                    @{
+                                            
+                                            @foreach (var item in listaAnos){
+                                                Console.Write("entre");
+                                                    
+
+                                                         <li>
+                                                        <input id="A" type="checkbox" name="Ano" value="@item.Value" checked="@item.Selected"/>
+                                                    @item.Text
+                                                         </li>
+
+                                                    }
+                                    }
+                                        </ul>
+                                        
+                                    </div>
+
+
+
+
+
+
+        </td>
+
+        </tr>
+        <tr>
+        <td style="vertical-align:top"  WIDTH=50%>
+           <p></p>
+        </td>
+
         </tr>
         </table>
         <p></p>
@@ -100,7 +133,7 @@
 
             @for (int i = 0; i < Model.Tabela.Dimnesao.Length; i++)
             {
-                    <input id="D"+@i type="checkbox" name="Dimensao" value="@Model.Tabela.Dimnesao[i]" checked="true" />
+                    <input type="hidden" id="D" type="checkbox" name="Dimensao" value="@Model.Tabela.Dimnesao[i]" checked="true" />
                                                //     Console.WriteLine(@Model.Tabela.Dimnesao[i]);
             } 
             }
@@ -109,7 +142,14 @@
 
              @for (int i = 0; i < Model.Tabela.Fato.Length; i++)
             {
-                    <input id="F"+@i type="checkbox" name="Fato" value="@Model.Tabela.Fato[i]" checked="true" />
+                    <input type="hidden" id="F" type="checkbox" name="Fato" value="@Model.Tabela.Fato[i]" checked="true" />
+                                               //     Console.WriteLine(@Model.Tabela.Dimnesao[i]);
+            } 
+            
+
+              @for (int i = 0; i < Model.Tabela.Ano.Length; i++)
+            {
+                    <input type="hidden" id="A" type="checkbox" name="Ano" value="@Model.Tabela.Ano[i]" checked="true" />
                                                //     Console.WriteLine(@Model.Tabela.Dimnesao[i]);
             } 
             }
@@ -153,13 +193,7 @@
           :items-per-page="5"
           class="elevation-1"
         ></v-data-table>
-                  <v-btn
-                  v-on:click="greet"
-        block
-        dark
-        color="#27AE60">
-    Baixar CSV :disquete:
-  </v-btn>
+                
       
         </v-card>
     </v-container>
@@ -178,6 +212,30 @@
 
 @{
 
+
+      List<SelectListItem> PopulateAnosPNP()
+    {
+        List<SelectListItem> items = new List<SelectListItem>();
+        AnosPNP anosPNP = new AnosPNP();
+
+        
+        foreach (var item in anosPNP.listaAnos)
+
+        {
+            //    dimensoes = dimensoes + "\'" + item.ToString().Trim().Replace("\'","")+"\',";
+
+            items.Add(new SelectListItem
+            {
+                Text = item.ToString(),
+                Value = item.ToString()
+            });
+        }
+
+
+        //     itemsDimensao = items;
+        //   Console.WriteLine(dimensoes);
+        return items;
+    }
 
 
 

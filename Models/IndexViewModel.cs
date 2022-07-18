@@ -6,6 +6,9 @@ public record Tabela
 	public string[] Dimnesao { get; set; }
 
 	public string[] Fato { get; set; }
+
+	
+	public string[] Ano { get; set; }
 	
 }
 public record IndexViewModel
