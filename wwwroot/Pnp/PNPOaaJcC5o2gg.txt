@@ -1,3 +1,0 @@
-dCalendário[Ano];Número de cursos
-2020;10878
-2021;11005

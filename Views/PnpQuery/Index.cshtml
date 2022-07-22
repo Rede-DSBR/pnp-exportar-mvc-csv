@@ -1,0 +1,265 @@
+﻿
+@using QueryTool
+@using System.Collections
+
+
+ @model IndexViewModel;
+
+  <link href="https://cdn.jsdelivr.net/npm/&#64;mdi/font&#64;4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+@{
+    ViewData["Title"] = "Home Page";
+    
+  //  @Model.teste
+
+   
+   
+
+
+        List<SelectListItem> listaAnos = PopulateAnosPNP(); 
+}
+
+<div class="text-center">
+                            <h1 class="display-1">Módulo de Exportação de Dados da PNP</h1>
+                            <p></a>.</p>
+                            </div>
+
+<form asp-page-handler="Index" method="GET">
+  <h1 class="display-5">Selecione os Anos da PNP</h1>
+
+    <table style="width:700px; border: 0px solid black" >
+    <tr>
+      
+        
+
+        <tr>
+        <td style="vertical-align:top"  WIDTH=50%>
+             <p></p>
+          
+                                    @{
+                                              
+                                            int i=0;
+                                            @foreach (var item in listaAnos){
+                                                Console.Write("entre");
+                                                Boolean chave =true;
+
+
+                                               
+
+                                                      for (int x=0;x<Model.Tabela.Ano.Length;x++){
+                                                          if (Model.Tabela.Ano[x].Trim().Equals(@item.Value)){
+                                                               <input id="A" type="checkbox" name="Ano" value="@item.Value" checked=true/>
+                                                                @item.Text
+                                                          chave=false;
+                                                      
+                                                      }
+                                                      }
+
+                                                    
+                                                    if (chave){
+                                                        <input id="A" type="checkbox" name="Ano" value="@item.Value" checked="@item.Selected"/>
+
+                                                   
+                                                      @item.Text
+
+                                                    }
+
+                                                   
+                                                      
+                                                      i++;
+                                                        
+
+                                                    
+                                              }                                   
+                                       }
+                                        
+                                        
+                                    </div>
+
+
+
+
+
+
+        </td>
+
+        </tr>
+        <tr>
+        <td style="vertical-align:top"  WIDTH=50%>
+           <p></p>
+        </td>
+
+        </tr>
+        </table>
+        <p></p>
+         
+         <button id="button1" type="submit"  class="btn btn-success" name="query" value=@ViewBag.query  asp-page-handler="Submit" >Processar CSV</button>
+<p></p>
+</form>
+           
+      
+        @if(ViewBag.Arquivo !=null){
+
+            Console.Write(ViewBag.Arquivo);
+           
+             <script>alert("CSV Gerado com Sucesso!!! Total de Registros="+@ViewBag.registros);</script>
+            
+            
+
+
+         <a href=@ViewBag.Arquivo download="pnp_academicosPNP.txt" title="Download CSV PNP" target="_blank">  Download CSV</a>
+         
+    
+
+       
+         }
+
+<div id="app">
+    <div class="text-center">
+    
+     <div>
+       <v-card>
+   
+          <v-card-title class="justify-center">Modulo de exportaçao</v-card-title>
+        
+          <v-expansion-panels>
+          
+          </v-expansion-panels>
+  
+          
+          <v-data-table
+          :headers="headers"
+          :items="desserts"
+         
+          :items-per-page="5"
+          class="elevation-1"
+        ></v-data-table>
+                
+      
+        </v-card>
+    </v-container>
+          
+       
+    </div>
+</div>
+</v-app>
+        <p></p>
+      
+    
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+
+@{
+
+
+      List<SelectListItem> PopulateAnosPNP()
+    {
+        List<SelectListItem> items = new List<SelectListItem>();
+        AnosPNP anosPNP = new AnosPNP();
+
+        
+        foreach (var item in anosPNP.listaAnos)
+
+        {
+            //    dimensoes = dimensoes + "\'" + item.ToString().Trim().Replace("\'","")+"\',";
+
+            items.Add(new SelectListItem
+            {
+                Text = item.ToString(),
+                Value = item.ToString(),
+                Selected = (item.ToString().Equals(AnosPNP.anocorrente)?true:false)
+            });
+        }
+
+
+        //     itemsDimensao = items;
+        //   Console.WriteLine(dimensoes);
+        return items;
+    }
+
+
+
+
+   
+
+
+
+
+   
+}
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+
+<script type="text/javascript" charset="utf-8">
+
+
+
+
+  let app = new Vue({
+      el: '#app',
+       vuetify: new Vuetify({
+
+          icons: {
+        iconFont: "md",
+    },
+       }),
+    
+    
+    
+   data: {  
+    teste :['dudu'],
+    selectedDim :[],
+    selectedFact: ['John'],
+    array: [],
+    headers: [
+       
+        @Html.Raw(Model.Tabela.colunas)
+ 
+        
+        ],
+        desserts: [
+        @Html.Raw(Model.Tabela.linhas)
+        
+        ]
+   
+   
+   },
+   methods: {
+    greet: function (event) {
+
+         $.ajax({
+            type: "GET",
+            url: "./Search",
+            data:  $("#query").val(),
+            dataType: "json",
+            success: OnSuccess,
+            failure: function (response) {
+                alert(response.d);
+            }
+        });
+     
+     
+    }
+   
+   }
+  }
+  )
+
+    
+function setHourglass()
+ {
+   document.body.style.cursor = 'wait';
+ }
+  
+   
+
+
+
+
+</script>

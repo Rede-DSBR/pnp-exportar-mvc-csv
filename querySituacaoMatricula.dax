@@ -1,0 +1,30 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+   
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    dimSituacao[categoriaSituacao],
+    dimSituacao[nomeSituacao],
+    dimSituacao[FluxoRetido],
+   
+    "Total",  SUM('fSituaçãoMatrícula'[numMatriculas])
+  
+    
+)
+ORDER BY 
+    'dCalendário'[Ano] ASC,
+    d_IES[Região] ASC,
+    d_IES[UF] ASC,
+    d_IES[Estado] ASC,
+    d_IES[Organização Acadêmica] ASC,
+    dimUnidade[Instituicao] ASC,
+    dimUnidade[Instituição (Nome)] ASC,
+    dimSituacao[categoriaSituacao] ASC,
+    dimSituacao[nomeSituacao] ASC,
+    dimSituacao[FluxoRetido] ASC

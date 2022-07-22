@@ -7,9 +7,9 @@
     <RootNamespace>pnp_exportar_mvc_csv</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
+  
+<ItemGroup>
     
        <ProjectReference Include="C:\Pnp\pnp-exportar-csv\Teste.csproj" />
   </ItemGroup>
-
 </Project>

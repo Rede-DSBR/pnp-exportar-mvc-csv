@@ -1,1 +1,0 @@
-'dCalendário'[Ano],d_IES[Região, d_IES[UF],d_IES[Estado],d_IES[Organização Acadêmica],dimUnidade[Instituicao]d_IES[Instituição (Nome)],dimCurso[nomeCurso],Número de cursos;Número de concluintes;Número de ingressantes;Número de inscritos;Número de Matrículas;Número de vagas
