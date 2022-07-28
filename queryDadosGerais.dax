@@ -23,7 +23,7 @@ SUMMARIZECOLUMNS(
     "Número de Matrículas", [Número de Matrículas],
     "Número de vagas", [Número de vagas],
    
-    "Matrícula Equivalente Apresentada Geral", [Matrícula Equivalente Apresentada Geral]
+    "Matrícula Equivalente Apresentada Geral",  ROUND([Matrícula Equivalente Apresentada Geral],2)
 )
 ORDER BY 
     'dCalendário'[Ano] ASC,

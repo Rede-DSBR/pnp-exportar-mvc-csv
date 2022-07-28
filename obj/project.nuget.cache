@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ilESSV/KbQSQLuQZUYHN0XB+5YVXsFA2cwPRcj8zopllfRS7c7Z6noVOz1a4es8dYyaFxZufA7aLS75tX1V4Ww==",
+  "dgSpecHash": "Oswa39id/gEEt/HBLkwq2XiTIdnYxmnU2NOqYIHyTecP2efOzBt8DrC9e4hcDYLkdJERU51yQxJ2PmDMYssRUw==",
   "success": true,
   "projectFilePath": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
   "expectedPackageFiles": [
@@ -75,7 +75,11 @@
     "C:\\Users\\Emjorge\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Emjorge\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Emjorge\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Emjorge\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Emjorge\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Emjorge\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.5\\microsoft.netcore.app.ref.6.0.5.nupkg.sha512",
+    "C:\\Users\\Emjorge\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.5\\microsoft.windowsdesktop.app.ref.6.0.5.nupkg.sha512",
+    "C:\\Users\\Emjorge\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.5\\microsoft.aspnetcore.app.ref.6.0.5.nupkg.sha512",
+    "C:\\Users\\Emjorge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.5\\microsoft.netcore.app.host.win-x64.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }

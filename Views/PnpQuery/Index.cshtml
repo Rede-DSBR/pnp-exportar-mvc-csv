@@ -17,15 +17,19 @@
 
 
         List<SelectListItem> listaAnos = PopulateAnosPNP(); 
+          
+
 }
 
 <div class="text-center">
-                            <h1 class="display-1">Módulo de Exportação de Dados da PNP</h1>
-                            <p></a>.</p>
+   <h1 class="display-6">@ViewBag.Titulo</h1>  
+   <h1 class="display-6">Painel @ViewBag.subTitulo</h1>            
+                         
                             </div>
+                       
 
 <form asp-page-handler="Index" method="GET">
-  <h1 class="display-5">Selecione os Anos da PNP</h1>
+  <h5 >Selecione os Anos da PNP</h5>
 
     <table style="width:700px; border: 0px solid black" >
     <tr>
@@ -92,6 +96,9 @@
         </tr>
         </table>
         <p></p>
+        <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
+
+         
          
          <button id="button1" type="submit"  class="btn btn-success" name="query" value=@ViewBag.query  asp-page-handler="Submit" >Processar CSV</button>
 <p></p>
@@ -120,11 +127,9 @@
      <div>
        <v-card>
    
-          <v-card-title class="justify-center">Modulo de exportaçao</v-card-title>
+          <v-card-title class="justify-center">Tabela com 100 Registros para Análise</v-card-title>
         
-          <v-expansion-panels>
-          
-          </v-expansion-panels>
+         
   
           
           <v-data-table

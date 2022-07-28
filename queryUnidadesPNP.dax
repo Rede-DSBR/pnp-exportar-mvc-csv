@@ -1,0 +1,15 @@
+/* START QUERY BUILDER */
+EVALUATE
+DISTINCT(
+SUMMARIZECOLUMNS(
+    dimUnidade[codUnidade],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    dimUnidade[nomeUnidadeRecente],
+    dimUnidade[nomeUnidadeRecenteRed],
+    dimUnidade[codSistec], 
+    KEEPFILTERS( FILTER( ALL( dimUnidade[codSistec] ), NOT( ISBLANK( dimUnidade[codSistec] )))),
+    KEEPFILTERS( FILTER( ALL( dimUnidade[AnoNomeUnidade] ), dimUnidade[AnoNomeUnidade] >= 2021 ))
+)
+
+    )

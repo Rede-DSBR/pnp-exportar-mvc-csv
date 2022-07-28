@@ -1,0 +1,15 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+      fCPC[ Ano],
+      d_IES[Sigla],
+    fCPC[ Área de Avaliação],
+    fCPC[ CPC (Faixa)],
+     KEEPFILTERS( FILTER( ALL( d_IES[Organização Acadêmica Sigla PNP] ), NOT( ISBLANK( d_IES[Organização Acadêmica Sigla PNP] ))))
+  
+)
+ORDER BY 
+    fCPC[ Ano],
+     d_IES[Sigla],
+    fCPC[ Área de Avaliação],
+    fCPC[ CPC (Faixa)]

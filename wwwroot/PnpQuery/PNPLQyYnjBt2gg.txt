@@ -1,0 +1,337 @@
+Ano;Região;UF;Estado;Organização Acadêmica;Instituicao;Instituição (Nome);Titulação;Servidores | Docente Efetivo;Servidores | Número de Docentes;Servidores | Número de Servidores;Servidores | ITCD
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;Aperfeicoamento;2;2;2;2
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;Educação Básica;;;46;
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;Graduação;8;13;135;1
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;Doutorado;286;307;318;5
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;Especialização;67;86;399;3
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;Mestrado;337;378;485;4
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;Educação Básica;;1;45;
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;Mestrado;298;331;559;4
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;Mestrado;556;626;829;4
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;Educação Básica;;;49;
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;Graduação;1;24;99;1
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;Especialização;50;71;520;3
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;Doutorado;405;422;459;5
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;Doutorado;511;546;563;5
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;Aperfeicoamento;1;1;5;2
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;Aperfeicoamento;;;1;
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;Especialização;25;37;303;3
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;Graduação;3;15;189;1
+2021;Centro-Oeste;MS;Mato Grosso do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFMS;Instituto Federal do Mato Grosso do Sul;Doutorado;187;206;224;5
+2021;Centro-Oeste;MS;Mato Grosso do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFMS;Instituto Federal do Mato Grosso do Sul;Graduação;6;13;140;1
+2021;Centro-Oeste;MS;Mato Grosso do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFMS;Instituto Federal do Mato Grosso do Sul;Educação Básica;;;37;
+2021;Centro-Oeste;MS;Mato Grosso do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFMS;Instituto Federal do Mato Grosso do Sul;Mestrado;341;376;498;4
+2021;Centro-Oeste;MS;Mato Grosso do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFMS;Instituto Federal do Mato Grosso do Sul;Especialização;63;74;377;3
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;Graduação;12;50;234;1
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;Educação Básica;1;1;75;0
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;Aperfeicoamento;1;1;1;2
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;Doutorado;352;401;415;5
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;Especialização;121;126;520;3
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;Mestrado;584;648;844;4
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;Graduação;18;51;281;1
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;Educação Básica;;;139;
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;Mestrado;601;623;780;4
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;Aperfeicoamento;1;1;2;2
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;Especialização;96;103;408;3
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;Doutorado;291;296;308;5
+2021;Nordeste;AL;Alagoas;Universidades Federais;UFAL - ETA;Escola Técnica de Artes da UFAL;Especialização;1;1;2;3
+2021;Nordeste;AL;Alagoas;Universidades Federais;UFAL - ETA;Escola Técnica de Artes da UFAL;Graduação;3;3;5;1
+2021;Nordeste;AL;Alagoas;Universidades Federais;UFAL - ETA;Escola Técnica de Artes da UFAL;Educação Básica;;;2;
+2021;Nordeste;AL;Alagoas;Universidades Federais;UFAL - ETA;Escola Técnica de Artes da UFAL;Mestrado;9;9;14;4
+2021;Nordeste;AL;Alagoas;Universidades Federais;UFAL - ETA;Escola Técnica de Artes da UFAL;Doutorado;5;5;5;5
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IFBA;Instituto Federal da Bahia;Especialização;233;244;774;3
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IFBA;Instituto Federal da Bahia;Mestrado;831;870;1065;4
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IFBA;Instituto Federal da Bahia;Graduação;19;178;400;1
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IF BAIANO;Instituto Federal Baiano;Especialização;69;84;544;3
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IF BAIANO;Instituto Federal Baiano;Mestrado;401;413;552;4
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IF BAIANO;Instituto Federal Baiano;Educação Básica;;;81;
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IFBA;Instituto Federal da Bahia;Educação Básica;;;126;
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IF BAIANO;Instituto Federal Baiano;Doutorado;333;336;354;5
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IF BAIANO;Instituto Federal Baiano;Graduação;13;24;230;1
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IFBA;Instituto Federal da Bahia;Doutorado;457;471;485;5
+2021;Nordeste;CE;Ceará;Institutos Federais, Cefet's e Colégio Pedro II;IFCE;Instituto Federal do Ceará;Doutorado;691;726;777;5
+2021;Nordeste;CE;Ceará;Institutos Federais, Cefet's e Colégio Pedro II;IFCE;Instituto Federal do Ceará;Graduação;42;56;294;1
+2021;Nordeste;CE;Ceará;Institutos Federais, Cefet's e Colégio Pedro II;IFCE;Instituto Federal do Ceará;Mestrado;1021;1057;1417;4
+2021;Nordeste;CE;Ceará;Institutos Federais, Cefet's e Colégio Pedro II;IFCE;Instituto Federal do Ceará;Especialização;216;224;1026;3
+2021;Nordeste;CE;Ceará;Institutos Federais, Cefet's e Colégio Pedro II;IFCE;Instituto Federal do Ceará;Educação Básica;;;128;
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;Doutorado;390;399;409;5
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;Educação Básica;;;253;
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;Mestrado;983;1041;1206;4
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;Aperfeicoamento;4;5;8;2
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;Graduação;62;114;570;1
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;Especialização;314;331;877;3
+2021;Nordeste;MA;Maranhão;Universidades Federais;UFMA - COLUN;Colégio Universitário da UFMA;Educação Básica;;;5;
+2021;Nordeste;MA;Maranhão;Universidades Federais;UFMA - COLUN;Colégio Universitário da UFMA;Graduação;2;2;4;1
+2021;Nordeste;MA;Maranhão;Universidades Federais;UFMA - COLUN;Colégio Universitário da UFMA;Mestrado;45;45;52;4
+2021;Nordeste;MA;Maranhão;Universidades Federais;UFMA - COLUN;Colégio Universitário da UFMA;Doutorado;18;18;18;5
+2021;Nordeste;MA;Maranhão;Universidades Federais;UFMA - COLUN;Colégio Universitário da UFMA;Especialização;16;16;23;3
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;Mestrado;667;732;989;4
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;Educação Básica;;;92;
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;Aperfeicoamento;1;1;2;2
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;Especialização;95;111;615;3
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;Graduação;9;18;206;1
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;Doutorado;492;533;561;5
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - CAVN;Colégio Agrícola Vidal de Negreiros da UFPB;Educação Básica;;;1;
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - CAVN;Colégio Agrícola Vidal de Negreiros da UFPB;Doutorado;35;35;37;5
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFCG - ETSC;Escola Técnica de Saúde de Cajazeiras da UFCG;Graduação;;;1;
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - ETS;Escola Técnica de Saúde da UFPB;Graduação;;1;6;
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - CAVN;Colégio Agrícola Vidal de Negreiros da UFPB;Mestrado;16;17;21;4
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - CAVN;Colégio Agrícola Vidal de Negreiros da UFPB;Graduação;;1;3;
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - CAVN;Colégio Agrícola Vidal de Negreiros da UFPB;Especialização;2;2;5;3
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFCG - ETSC;Escola Técnica de Saúde de Cajazeiras da UFCG;Doutorado;14;14;14;5
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFCG - ETSC;Escola Técnica de Saúde de Cajazeiras da UFCG;Mestrado;9;12;17;4
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFCG - ETSC;Escola Técnica de Saúde de Cajazeiras da UFCG;Educação Básica;;;2;
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - ETS;Escola Técnica de Saúde da UFPB;Mestrado;7;8;18;4
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFCG - ETSC;Escola Técnica de Saúde de Cajazeiras da UFCG;Especialização;3;4;8;3
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - ETS;Escola Técnica de Saúde da UFPB;Especialização;;;10;
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - ETS;Escola Técnica de Saúde da UFPB;Doutorado;32;32;33;5
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;Aperfeicoamento;;;1;
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;Doutorado;134;135;139;5
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;Educação Básica;;;73;
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;Mestrado;682;709;913;4
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;Graduação;18;26;310;1
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;Educação Básica;2;2;149;0
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;Especialização;146;153;581;3
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;Mestrado;274;283;382;4
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;Aperfeicoamento;;;1;
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;Graduação;6;44;167;1
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;Doutorado;373;389;403;5
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;Especialização;58;62;304;3
+2021;Nordeste;PE;Pernambuco;Universidades Federais;UFRPE - CODAI;Colégio Agrícola Dom Agostinho Ikas da UFRPE;Graduação;;;1;
+2021;Nordeste;PE;Pernambuco;Universidades Federais;UFRPE - CODAI;Colégio Agrícola Dom Agostinho Ikas da UFRPE;Educação Básica;;;3;
+2021;Nordeste;PE;Pernambuco;Universidades Federais;UFRPE - CODAI;Colégio Agrícola Dom Agostinho Ikas da UFRPE;Especialização;2;2;9;3
+2021;Nordeste;PE;Pernambuco;Universidades Federais;UFRPE - CODAI;Colégio Agrícola Dom Agostinho Ikas da UFRPE;Doutorado;32;32;33;5
+2021;Nordeste;PE;Pernambuco;Universidades Federais;UFRPE - CODAI;Colégio Agrícola Dom Agostinho Ikas da UFRPE;Mestrado;27;27;29;4
+2021;Nordeste;PI;Piauí;Institutos Federais, Cefet's e Colégio Pedro II;IFPI;Instituto Federal do Piauí;Doutorado;271;277;289;5
+2021;Nordeste;PI;Piauí;Institutos Federais, Cefet's e Colégio Pedro II;IFPI;Instituto Federal do Piauí;Educação Básica;1;1;16;0
+2021;Nordeste;PI;Piauí;Institutos Federais, Cefet's e Colégio Pedro II;IFPI;Instituto Federal do Piauí;Mestrado;729;755;902;4
+2021;Nordeste;PI;Piauí;Institutos Federais, Cefet's e Colégio Pedro II;IFPI;Instituto Federal do Piauí;Especialização;263;263;745;3
+2021;Nordeste;PI;Piauí;Institutos Federais, Cefet's e Colégio Pedro II;IFPI;Instituto Federal do Piauí;Graduação;21;95;381;1
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CABJ;Colégio Técnico de Bom Jesus da UFPI;Graduação;;;2;
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CTF;Colégio Técnico de Floriano da UFPI;Doutorado;16;19;21;5
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CABJ;Colégio Técnico de Bom Jesus da UFPI;Mestrado;15;20;20;4
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CAT;Colégio Técnico de Teresina;Mestrado;11;11;20;4
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CTF;Colégio Técnico de Floriano da UFPI;Mestrado;18;21;24;4
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CAT;Colégio Técnico de Teresina;Especialização;3;3;9;3
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CTF;Colégio Técnico de Floriano da UFPI;Educação Básica;;;1;
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CABJ;Colégio Técnico de Bom Jesus da UFPI;Doutorado;10;11;11;5
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CAT;Colégio Técnico de Teresina;Graduação;;;5;
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CAT;Colégio Técnico de Teresina;Educação Básica;;;1;
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CTF;Colégio Técnico de Floriano da UFPI;Especialização;1;1;14;3
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CTF;Colégio Técnico de Floriano da UFPI;Graduação;;;1;
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CAT;Colégio Técnico de Teresina;Doutorado;19;19;22;5
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CABJ;Colégio Técnico de Bom Jesus da UFPI;Especialização;5;7;12;3
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;Mestrado;835;906;1213;4
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;Graduação;17;48;279;1
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;Educação Básica;;;99;
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;Especialização;81;83;556;3
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;Doutorado;581;603;655;5
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;Aperfeicoamento;3;3;3;2
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - EAJ;Escola Agrícola de Jundiaí da UFRN;Graduação;;;12;
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - MÚSICA;Escola de Música da UFRN;Graduação;1;2;12;1
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - MÚSICA;Escola de Música da UFRN;Educação Básica;;;4;
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;ESUFRN;Escola Técnica de Saúde da UFPB;Doutorado;34;34;35;5
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - MÚSICA;Escola de Música da UFRN;Doutorado;27;27;29;5
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - MÚSICA;Escola de Música da UFRN;Especialização;;;7;
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - MÚSICA;Escola de Música da UFRN;Mestrado;18;19;23;4
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;ESUFRN;Escola Técnica de Saúde da UFPB;Especialização;;;3;
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - EAJ;Escola Agrícola de Jundiaí da UFRN;Doutorado;37;40;49;5
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - EAJ;Escola Agrícola de Jundiaí da UFRN;Mestrado;18;19;46;4
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;ESUFRN;Escola Técnica de Saúde da UFPB;Mestrado;6;6;13;4
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - EAJ;Escola Agrícola de Jundiaí da UFRN;Educação Básica;;;6;
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - EAJ;Escola Agrícola de Jundiaí da UFRN;Especialização;5;5;21;3
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;Doutorado;186;200;216;5
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;Especialização;45;45;303;3
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;Graduação;3;3;180;1
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;Aperfeicoamento;;;1;
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;Mestrado;269;279;425;4
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;Educação Básica;;;70;
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;Aperfeicoamento;;;1;
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;Mestrado;181;183;234;4
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;Especialização;96;96;324;3
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;Doutorado;74;81;84;5
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;Educação Básica;;;23;
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;Graduação;3;5;80;1
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;Educação Básica;1;1;95;0
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;Aperfeicoamento;4;4;4;2
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;Mestrado;475;478;642;4
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;Doutorado;183;186;193;5
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;Graduação;26;52;240;1
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;Especialização;238;242;660;3
+2021;Norte;AP;Amapá;Institutos Federais, Cefet's e Colégio Pedro II;IFAP;Instituto Federal do Amapá;Mestrado;156;166;201;4
+2021;Norte;AP;Amapá;Institutos Federais, Cefet's e Colégio Pedro II;IFAP;Instituto Federal do Amapá;Doutorado;45;52;52;5
+2021;Norte;AP;Amapá;Institutos Federais, Cefet's e Colégio Pedro II;IFAP;Instituto Federal do Amapá;Especialização;88;92;123;3
+2021;Norte;AP;Amapá;Institutos Federais, Cefet's e Colégio Pedro II;IFAP;Instituto Federal do Amapá;Graduação;6;18;248;1
+2021;Norte;AP;Amapá;Institutos Federais, Cefet's e Colégio Pedro II;IFAP;Instituto Federal do Amapá;Educação Básica;;;35;
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;Especialização;230;232;748;3
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;Educação Básica;;;106;
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;Aperfeicoamento;1;1;2;2
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;Doutorado;317;317;328;5
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;Mestrado;773;775;964;4
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;Graduação;21;31;218;1
+2021;Norte;PA;Pará;Universidades Federais;ETDUFPA;Escola de Teatro e Dança da UFPA;Graduação;;;2;
+2021;Norte;PA;Pará;Universidades Federais;EMUFPA;Escola de Música da UFPA;Graduação;4;4;8;1
+2021;Norte;PA;Pará;Universidades Federais;EMUFPA;Escola de Música da UFPA;Especialização;8;8;14;3
+2021;Norte;PA;Pará;Universidades Federais;ETDUFPA;Escola de Teatro e Dança da UFPA;Especialização;;;4;
+2021;Norte;PA;Pará;Universidades Federais;EMUFPA;Escola de Música da UFPA;Doutorado;15;15;15;5
+2021;Norte;PA;Pará;Universidades Federais;ETDUFPA;Escola de Teatro e Dança da UFPA;Doutorado;5;5;6;5
+2021;Norte;PA;Pará;Universidades Federais;EMUFPA;Escola de Música da UFPA;Mestrado;23;23;26;4
+2021;Norte;PA;Pará;Universidades Federais;ETDUFPA;Escola de Teatro e Dança da UFPA;Mestrado;3;3;4;4
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;Doutorado;136;161;171;5
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;Educação Básica;;;49;
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;Aperfeicoamento;1;2;2;2
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;Especialização;109;133;443;3
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;Graduação;5;15;97;1
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;Mestrado;368;386;503;4
+2021;Norte;RR;Roraima;Institutos Federais, Cefet's e Colégio Pedro II;IFRR;Instituto Federal de Roraima;Graduação;7;9;80;1
+2021;Norte;RR;Roraima;Institutos Federais, Cefet's e Colégio Pedro II;IFRR;Instituto Federal de Roraima;Especialização;53;56;221;3
+2021;Norte;RR;Roraima;Institutos Federais, Cefet's e Colégio Pedro II;IFRR;Instituto Federal de Roraima;Doutorado;69;77;80;5
+2021;Norte;RR;Roraima;Institutos Federais, Cefet's e Colégio Pedro II;IFRR;Instituto Federal de Roraima;Educação Básica;;;38;
+2021;Norte;RR;Roraima;Institutos Federais, Cefet's e Colégio Pedro II;IFRR;Instituto Federal de Roraima;Mestrado;167;174;258;4
+2021;Norte;RR;Roraima;Universidades Federais;UFRR - EAGRO;Escola Agrotécnica da UFRR;Mestrado;13;16;18;4
+2021;Norte;RR;Roraima;Universidades Federais;UFRR - EAGRO;Escola Agrotécnica da UFRR;Especialização;1;2;7;3
+2021;Norte;RR;Roraima;Universidades Federais;UFRR - EAGRO;Escola Agrotécnica da UFRR;Doutorado;14;15;15;5
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;Aperfeicoamento;1;1;1;2
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;Doutorado;179;195;199;5
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;Graduação;3;6;169;1
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;Mestrado;388;433;529;4
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;Educação Básica;;;51;
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;Especialização;79;111;386;3
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;Doutorado;645;659;709;5
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;Graduação;8;41;204;1
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;Educação Básica;;;115;
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;Aperfeicoamento;2;2;2;2
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;Mestrado;766;847;1207;4
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;Especialização;79;109;766;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;Aperfeicoamento;;;1;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;Aperfeicoamento;1;1;2;2
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;Aperfeicoamento;1;1;1;2
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IF SUDESTE MG;Instituto Federal do Sudeste de Minas Gerais;Mestrado;295;308;450;4
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;Aperfeicoamento;1;1;1;2
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;Doutorado;586;640;668;5
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;Mestrado;263;272;456;4
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;Educação Básica;;;80;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;Doutorado;428;448;473;5
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;Doutorado;202;214;225;5
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IF SUDESTE MG;Instituto Federal do Sudeste de Minas Gerais;Doutorado;309;321;337;5
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;Doutorado;303;339;364;5
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;Doutorado;270;277;292;5
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;Mestrado;234;258;451;4
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;Graduação;4;4;78;1
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IF SUDESTE MG;Instituto Federal do Sudeste de Minas Gerais;Graduação;3;9;78;1
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;Graduação;1;53;119;1
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;Graduação;5;39;189;1
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;Aperfeicoamento;;;1;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;Graduação;4;5;97;1
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;Educação Básica;;;46;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;Especialização;21;37;284;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IF SUDESTE MG;Instituto Federal do Sudeste de Minas Gerais;Especialização;49;49;426;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;Especialização;64;64;459;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;Especialização;49;54;445;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;Graduação;3;24;146;1
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;Especialização;15;18;292;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;Mestrado;512;565;803;4
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;Mestrado;384;403;570;4
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;Educação Básica;;;42;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;Educação Básica;;;29;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IF SUDESTE MG;Instituto Federal do Sudeste de Minas Gerais;Educação Básica;;;38;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;Especialização;42;42;242;3
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;Educação Básica;;;41;
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;Mestrado;342;418;634;4
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFTM - CEFORES;Centro de Educação Profissional da UFTM;Mestrado;10;10;18;4
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - COLTEC;Colégio Técnico da UFMG;Doutorado;36;36;36;5
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFU - ESTES;Escola Técnica de Saúde da UFU;Doutorado;29;31;32;5
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFU - ESTES;Escola Técnica de Saúde da UFU;Educação Básica;;;1;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFV - CEDAF;Centro de Ensino e Desenvolvimento Agrário da UFV;Especialização;;;77;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFU - ESTES;Escola Técnica de Saúde da UFU;Graduação;;;6;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFV - CEDAF;Centro de Ensino e Desenvolvimento Agrário da UFV;Graduação;;;24;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFV - CEDAF;Centro de Ensino e Desenvolvimento Agrário da UFV;Educação Básica;;;51;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFTM - CEFORES;Centro de Educação Profissional da UFTM;Graduação;;;3;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFU - ESTES;Escola Técnica de Saúde da UFU;Especialização;;1;10;
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - TU;Teatro Universitário da UFMG;Doutorado;3;3;3;5
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFV - CEDAF;Centro de Ensino e Desenvolvimento Agrário da UFV;Doutorado;34;34;40;5
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFTM - CEFORES;Centro de Educação Profissional da UFTM;Doutorado;14;14;18;5
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFTM - CEFORES;Centro de Educação Profissional da UFTM;Especialização;5;5;17;3
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFU - ESTES;Escola Técnica de Saúde da UFU;Mestrado;11;11;11;4
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - COLTEC;Colégio Técnico da UFMG;Especialização;1;1;1;3
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFV - CEDAF;Centro de Ensino e Desenvolvimento Agrário da UFV;Mestrado;12;12;37;4
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - TU;Teatro Universitário da UFMG;Mestrado;4;4;4;4
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - COLTEC;Colégio Técnico da UFMG;Mestrado;10;10;10;4
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - TU;Teatro Universitário da UFMG;Educação Básica;1;1;1;0
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - COLTEC;Colégio Técnico da UFMG;Graduação;1;1;1;1
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;Mestrado;676;712;868;4
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;Especialização;173;181;582;3
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFRJ;Instituto Federal do Rio de Janeiro;Especialização;47;54;363;3
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;Especialização;101;101;393;3
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;Doutorado;296;297;314;5
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;Aperfeicoamento;3;3;3;2
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-RJ;Centro Federal de Educação Tecnológica Celso Suckow da Fonseca;Graduação;12;40;133;1
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;Graduação;53;151;410;1
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-RJ;Centro Federal de Educação Tecnológica Celso Suckow da Fonseca;Doutorado;435;439;451;5
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;Mestrado;530;535;729;4
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFRJ;Instituto Federal do Rio de Janeiro;Doutorado;547;578;617;5
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;Educação Básica;1;1;171;0
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;Educação Básica;2;2;92;0
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFRJ;Instituto Federal do Rio de Janeiro;Graduação;9;30;180;1
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;Graduação;10;101;231;1
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFRJ;Instituto Federal do Rio de Janeiro;Mestrado;439;476;656;4
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;Aperfeicoamento;3;4;7;2
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-RJ;Centro Federal de Educação Tecnológica Celso Suckow da Fonseca;Especialização;41;44;267;3
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFRJ;Instituto Federal do Rio de Janeiro;Educação Básica;;;162;
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;Doutorado;299;310;324;5
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-RJ;Centro Federal de Educação Tecnológica Celso Suckow da Fonseca;Educação Básica;;;97;
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-RJ;Centro Federal de Educação Tecnológica Celso Suckow da Fonseca;Mestrado;363;373;537;4
+2021;Sudeste;RJ;Rio de Janeiro;Universidades Federais;UFRRJ - CTUR;Colégio Técnico da UFRRJ;Especialização;1;1;8;3
+2021;Sudeste;RJ;Rio de Janeiro;Universidades Federais;UFRRJ - CTUR;Colégio Técnico da UFRRJ;Doutorado;27;31;32;5
+2021;Sudeste;RJ;Rio de Janeiro;Universidades Federais;UFRRJ - CTUR;Colégio Técnico da UFRRJ;Mestrado;32;33;40;4
+2021;Sudeste;RJ;Rio de Janeiro;Universidades Federais;UFRRJ - CTUR;Colégio Técnico da UFRRJ;Graduação;;1;3;
+2021;Sudeste;RJ;Rio de Janeiro;Universidades Federais;UFRRJ - CTUR;Colégio Técnico da UFRRJ;Educação Básica;;;9;
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;Educação Básica;;;173;
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;Aperfeicoamento;2;2;3;2
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;Mestrado;1160;1322;1698;4
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;Doutorado;1259;1405;1485;5
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;Especialização;161;199;1140;3
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;Graduação;23;68;430;1
+2021;Sul;PR;Paraná;Institutos Federais, Cefet's e Colégio Pedro II;IFPR;Instituto Federal do Paraná;Educação Básica;;;40;
+2021;Sul;PR;Paraná;Institutos Federais, Cefet's e Colégio Pedro II;IFPR;Instituto Federal do Paraná;Mestrado;668;727;947;4
+2021;Sul;PR;Paraná;Institutos Federais, Cefet's e Colégio Pedro II;IFPR;Instituto Federal do Paraná;Especialização;74;100;599;3
+2021;Sul;PR;Paraná;Institutos Federais, Cefet's e Colégio Pedro II;IFPR;Instituto Federal do Paraná;Doutorado;531;579;619;5
+2021;Sul;PR;Paraná;Institutos Federais, Cefet's e Colégio Pedro II;IFPR;Instituto Federal do Paraná;Graduação;18;24;190;1
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;Mestrado;338;384;615;4
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFRS;Instituto Federal do Rio Grande do Sul;Especialização;33;48;500;3
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;Especialização;26;38;301;3
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFRS;Instituto Federal do Rio Grande do Sul;Doutorado;622;688;734;5
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;Especialização;66;66;400;3
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;Doutorado;397;438;479;5
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;Aperfeicoamento;1;1;1;2
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;Graduação;7;43;207;1
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;Doutorado;366;389;430;5
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;Aperfeicoamento;;;1;
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFRS;Instituto Federal do Rio Grande do Sul;Educação Básica;;;70;
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;Educação Básica;;;49;
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;Mestrado;496;571;767;4
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFRS;Instituto Federal do Rio Grande do Sul;Mestrado;502;582;852;4
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;Educação Básica;;;70;
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFRS;Instituto Federal do Rio Grande do Sul;Graduação;4;18;148;1
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;Graduação;2;10;121;1
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - POLITÉCNICO;Colégio Politécnico da UFSM;Especialização;1;1;13;3
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - CTISM;Colégio Técnico Industrial da UFSM;Doutorado;36;37;38;5
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - CTISM;Colégio Técnico Industrial da UFSM;Especialização;2;2;19;3
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - POLITÉCNICO;Colégio Politécnico da UFSM;Educação Básica;;;7;
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - CTISM;Colégio Técnico Industrial da UFSM;Educação Básica;;;1;
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - CTISM;Colégio Técnico Industrial da UFSM;Graduação;;1;11;
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - POLITÉCNICO;Colégio Politécnico da UFSM;Doutorado;53;53;57;5
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - POLITÉCNICO;Colégio Politécnico da UFSM;Graduação;1;10;16;1
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - POLITÉCNICO;Colégio Politécnico da UFSM;Mestrado;25;26;40;4
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - CTISM;Colégio Técnico Industrial da UFSM;Mestrado;25;29;38;4
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFC;Instituto Federal Catarinense;Doutorado;436;448;471;5
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFC;Instituto Federal Catarinense;Mestrado;413;444;707;4
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;Especialização;76;77;604;3
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;Mestrado;681;738;1062;4
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFC;Instituto Federal Catarinense;Educação Básica;;;57;
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;Graduação;11;89;322;1
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFC;Instituto Federal Catarinense;Especialização;40;40;366;3
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFC;Instituto Federal Catarinense;Graduação;5;82;280;1
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;Educação Básica;;;74;
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;Doutorado;658;698;725;5
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;Aperfeicoamento;1;1;1;2

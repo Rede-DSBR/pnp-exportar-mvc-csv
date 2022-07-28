@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\pnp-exportar-mvc-csv.props" />
+</Project>

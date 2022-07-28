@@ -1,0 +1,65 @@
+Ano;Região;UF;Estado;Organização Acadêmica;Instituicao;Instituição (Nome);Taxa de Ocupação | Matriculas Ciclos Vigentes;Taxa de Ocupação | Vagas Ciclos Vigentes;Taxa de Ocupação | Taxa de Ocupação
+2021;Centro-Oeste;DF;Distrito Federal;Institutos Federais, Cefet's e Colégio Pedro II;IFB;Instituto Federal de Brasília;16492;15432;1,0686884396060135
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IF GOIANO;Instituto Federal Goiano;17347;18749;0,9252226785428557
+2021;Centro-Oeste;GO;Goiás;Institutos Federais, Cefet's e Colégio Pedro II;IFG;Instituto Federal de Goiás;17216;15059;1,143236602696062
+2021;Centro-Oeste;MS;Mato Grosso do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFMS;Instituto Federal do Mato Grosso do Sul;12821;14705;0,8718803128187691
+2021;Centro-Oeste;MT;Mato Grosso;Institutos Federais, Cefet's e Colégio Pedro II;IFMT;Instituto Federal do Mato Grosso;27005;24913;1,0839722233372135
+2021;Nordeste;AL;Alagoas;Institutos Federais, Cefet's e Colégio Pedro II;IFAL;Instituto Federal de Alagoas;20970;21564;0,9724540901502504
+2021;Nordeste;AL;Alagoas;Universidades Federais;UFAL - ETA;Universidade Federal de Alagoas;311;387;0,8036175710594315
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IF BAIANO;Instituto Federal Baiano;16367;18095;0,9045040066316662
+2021;Nordeste;BA;Bahia;Institutos Federais, Cefet's e Colégio Pedro II;IFBA;Instituto Federal da Bahia;29758;30675;0,9701059494702526
+2021;Nordeste;CE;Ceará;Institutos Federais, Cefet's e Colégio Pedro II;IFCE;Instituto Federal do Ceará;45054;49660;0,9072492952074104
+2021;Nordeste;MA;Maranhão;Institutos Federais, Cefet's e Colégio Pedro II;IFMA;Instituto Federal do Maranhão;36487;31495;1,158501349420543
+2021;Nordeste;MA;Maranhão;Universidades Federais;UFMA - COLUN;Universidade Federal do Maranhão;233;264;0,8825757575757576
+2021;Nordeste;PB;Paraiba;Institutos Federais, Cefet's e Colégio Pedro II;IFPB;Instituto Federal da Paraíba;37504;35320;1,0618346545866364
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFCG - ETSC;Universidade Federal de Campina Grande;370;502;0,7370517928286853
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - CAVN;Universidade Federal da Paraíba;891;1090;0,8174311926605504
+2021;Nordeste;PB;Paraíba;Universidades Federais;UFPB - ETS;Universidade Federal da Paraíba;770;692;1,1127167630057804
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IF SERTÃO-PE;Instituto Federal do Sertão Pernambucano;9543;11429;0,8349811882054423
+2021;Nordeste;PE;Pernambuco;Institutos Federais, Cefet's e Colégio Pedro II;IFPE;Instituto Federal de Pernambuco;25317;24602;1,0290626778310707
+2021;Nordeste;PE;Pernambuco;Universidades Federais;UFRPE - CODAI;Universidade Federal Rural de Pernambuco;880;1289;0,682699767261443
+2021;Nordeste;PI;Piauí;Institutos Federais, Cefet's e Colégio Pedro II;IFPI;Instituto Federal do Piauí;27838;27833;1,0001796428699745
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CABJ;Universidade Federal do Piauí;520;829;0,6272617611580217
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CAT;Universidade Federal do Piauí;588;785;0,7490445859872611
+2021;Nordeste;PI;Piauí;Universidades Federais;UFPI - CTF;Universidade Federal do Piauí;386;549;0,7030965391621129
+2021;Nordeste;RN;Rio Grande do Norte;Institutos Federais, Cefet's e Colégio Pedro II;IFRN;Instituto Federal do Rio Grande do Norte;35868;33810;1,0608695652173914
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;ESUFRN;Universidade Federal do Rio Grande do Norte;2804;974;2,8788501026694044
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - EAJ;Universidade Federal do Rio Grande do Norte;1108;1160;0,9551724137931035
+2021;Nordeste;RN;Rio Grande do Norte;Universidades Federais;UFRN - MÚSICA;Universidade Federal do Rio Grande do Norte;389;394;0,9873096446700508
+2021;Nordeste;SE;Sergipe;Institutos Federais, Cefet's e Colégio Pedro II;IFS;Instituto Federal de Sergipe;11135;11415;0,9754708716600964
+2021;Norte;AC;Acre;Institutos Federais, Cefet's e Colégio Pedro II;IFAC;Instituto Federal do Acre;6490;6429;1,0094882563384664
+2021;Norte;AM;Amazonas;Institutos Federais, Cefet's e Colégio Pedro II;IFAM;Instituto Federal do Amazonas;18090;14296;1,265388919977616
+2021;Norte;AP;Amapá;Institutos Federais, Cefet's e Colégio Pedro II;IFAP;Instituto Federal do Amapá;5911;5446;1,085383767903048
+2021;Norte;PA;Pará;Institutos Federais, Cefet's e Colégio Pedro II;IFPA;Instituto Federal do Pará;22949;24131;0,95101736355725
+2021;Norte;PA;Pará;Universidades Federais;EMUFPA;Universidade Federal do Pará;323;590;0,5474576271186441
+2021;Norte;PA;Pará;Universidades Federais;ETDUFPA;Universidade Federal do Pará;400;308;1,2987012987012987
+2021;Norte;RO;Rondônia;Institutos Federais, Cefet's e Colégio Pedro II;IFRO;Instituto Federal de Rondônia;22181;17730;1,251043429216018
+2021;Norte;RR;Roraima;Institutos Federais, Cefet's e Colégio Pedro II;IFRR;Instituto Federal de Roraima;4208;3769;1,1164765189705492
+2021;Norte;RR;Roraima;Universidades Federais;UFRR - EAGRO;Universidade Federal de Roraima;348;360;0,9666666666666667
+2021;Norte;TO;Tocantins;Institutos Federais, Cefet's e Colégio Pedro II;IFTO;Instituto Federal do Tocantins;16584;21059;0,7875017807113348
+2021;Sudeste;ES;Espírito Santo;Institutos Federais, Cefet's e Colégio Pedro II;IFES;Instituto Federal do Espírito Santo;32093;31239;1,027337622843241
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-MG;Centro Federal de Educação Tecnológica de Minas Gerais;15764;16656;0,946445725264169
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IF SUDESTE MG;Instituto Federal do Sudeste de Minas Gerais;14135;14012;1,008778190122752
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFMG;Instituto Federal de Minas Gerais;21191;20416;1,0379604231974922
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFNMG;Instituto Federal do Norte de Minas Gerais;20996;21011;0,9992860882394936
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFSULDEMINAS;Instituto Federal do Sul de Minas Gerais;25382;25039;1,0136986301369864
+2021;Sudeste;MG;Minas Gerais;Institutos Federais, Cefet's e Colégio Pedro II;IFTM;Instituto Federal do Triângulo Mineiro;10689;10278;1,0399883245767658
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - COLTEC;Universidade Federal de Minas Gerais;848;684;1,239766081871345
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFMG - TU;Universidade Federal de Minas Gerais;81;66;1,2272727272727273
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFTM - CEFORES;Universidade Federal do Triângulo Mineiro;541;460;1,1760869565217391
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFU - ESTES;Universidade Federal de Uberlândia;585;733;0,7980900409276944
+2021;Sudeste;MG;Minas Gerais;Universidades Federais;UFV - CEDAF;Universidade Federal de Viçosa;1183;1279;0,924941360437842
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CEFET-RJ;Centro Federal de Educação Tecnológica Celso Suckow da Fonseca;18816;19215;0,9792349726775956
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;CPII;Colégio Pedro II;3377;16323;0,20688598909514183
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFF;Instituto Federal Fluminense;18215;17625;1,0334751773049646
+2021;Sudeste;RJ;Rio de Janeiro;Institutos Federais, Cefet's e Colégio Pedro II;IFRJ;Instituto Federal do Rio de Janeiro;17377;16906;1,027859931385307
+2021;Sudeste;RJ;Rio de Janeiro;Universidades Federais;UFRRJ - CTUR;Universidade Federal Rural do Rio de Janeiro;753;774;0,9728682170542635
+2021;Sudeste;SP;São Paulo;Institutos Federais, Cefet's e Colégio Pedro II;IFSP;Instituto Federal de São Paulo;52566;50116;1,048886583127145
+2021;Sul;PR;Paraná;Institutos Federais, Cefet's e Colégio Pedro II;IFPR;Instituto Federal do Paraná;27296;21400;1,2755140186915888
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IF FARROUPILHA;Instituto Federal Farroupilha;14377;15493;0,9279674691796295
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFRS;Instituto Federal do Rio Grande do Sul;20182;16752;1,204751671442216
+2021;Sul;RS;Rio Grande do Sul;Institutos Federais, Cefet's e Colégio Pedro II;IFSUL;Instituto Federal Sul-rio-grandense;19734;19311;1,021904613950598
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - CTISM;Universidade Federal de Santa Maria;1541;2292;0,6723385689354275
+2021;Sul;RS;Rio Grande do Sul;Universidades Federais;UFSM - POLITÉCNICO;Universidade Federal de Santa Maria;2758;3038;0,9078341013824884
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFC;Instituto Federal Catarinense;17516;16687;1,0496793911428057
+2021;Sul;SC;Santa Catarina;Institutos Federais, Cefet's e Colégio Pedro II;IFSC;Instituto Federal de Santa Catarina;34271;35356;0,9693121393822831

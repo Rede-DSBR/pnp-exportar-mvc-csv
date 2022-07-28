@@ -1,0 +1,15 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+    'dCalendário'[Ano],
+    d_IES[Sigla],
+    fIGC[ IGC (Contínuo)],
+    fIGC[ IGC (Faixa)],
+    KEEPFILTERS( FILTER( ALL( 'fCPC'[ Área de Avaliação]) , NOT( 'fCPC'[ Área de Avaliação]) IN {"Área de Avaliação"} )),
+    KEEPFILTERS( FILTER( ALL( dimUnidade[Instituicao] ), NOT( dimUnidade[Instituicao] IN {"CPII"} ))),
+    KEEPFILTERS( FILTER( ALL( d_IES[Organização Acadêmica Sigla PNP] ), NOT( ISBLANK( d_IES[Organização Acadêmica Sigla PNP] ))))
+)
+ORDER BY 
+    'dCalendário'[Ano],
+    d_IES[Sigla]
+
