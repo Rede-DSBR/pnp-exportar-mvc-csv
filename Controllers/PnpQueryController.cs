@@ -29,11 +29,13 @@ public class PnpQueryController : Controller
    
  
     [HttpGet]
-    public IActionResult Index(string[] ano, string acao, string query)
+    public IActionResult Index(string[] ano, string query,string titulo)
   {
 
-   // Console.WriteLine("xxx"+ano.Length);
-
+       //Console.WriteLine("xxx"+ano.Length);
+        String[] sTitulo = titulo.Split(";");
+        ViewBag.Titulo = sTitulo[0];
+        ViewBag.subTitulo = sTitulo[1];
     FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
 
         HashSet<string> listaAnos = new HashSet<string>();
@@ -72,7 +74,7 @@ public class PnpQueryController : Controller
 
 
 
-        ViewBag.Nome = "teste";
+       
         ViewBag.Nome = "teste";
             var model = new IndexViewModel
 	        {
@@ -212,7 +214,7 @@ public class PnpQueryController : Controller
        
 
 
-              string nameFile = "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\";
+              string nameFile = "C:\\pnp\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\";
             
             
             

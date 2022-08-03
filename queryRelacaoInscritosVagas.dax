@@ -1,0 +1,26 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    "Número de inscritos", [Número de inscritos],
+    "Número de vagas", [Número de vagas],
+    "Relação Inscrito Vaga", ROUND([Relação Inscrito Vaga],2)
+    
+   
+)
+ORDER BY 
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)]
+     
+

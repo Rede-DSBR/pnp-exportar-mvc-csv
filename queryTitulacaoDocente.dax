@@ -1,0 +1,24 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    "Servidores | Docente Efetivo", [Servidores | Docente Efetivo],
+    "Servidores | Número de Docentes", [Servidores | Número de Docentes],
+    "Servidores | Número de Servidores", [Servidores | Número de Servidores],
+    "Servidores | ITCD",  ROUND([Servidores | ITCD],2)
+)
+ORDER BY 
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)]
+

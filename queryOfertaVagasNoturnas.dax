@@ -1,0 +1,29 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+     KEEPFILTERS( TREATAS( {"Graduação",""}, TipoCurso[Nível Curso] )),
+    KEEPFILTERS( TREATAS( {"Educação Presencial"}, fCPC[ Modalidade de Ensino] )),
+    KEEPFILTERS( TREATAS( {"Sem Programa Associado"}, dimFinanciamento[nomeFonteFinanciamentoCorrigido] )),
+    "Oferta de Vagas | Curso Noturno", [Oferta de Vagas | Curso Noturno],
+    "Oferta de Vagas | Curso Noturno %", ROUND([Oferta de Vagas | Curso Noturno %]*100,2),
+    "Oferta de Vagas | Graduação", [Oferta de Vagas | Graduação]
+    
+   
+)
+ORDER BY 
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)]
+     
+

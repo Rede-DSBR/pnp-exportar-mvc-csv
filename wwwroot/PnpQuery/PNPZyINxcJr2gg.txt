@@ -1,1 +1,0 @@
-Ano;Região;UF;Estado;Organização Acadêmica;Instituicao;Instituição (Nome);categoriaSituacao;nomeSituacao;FluxoRetido;numMatriculas

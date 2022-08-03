@@ -17,25 +17,66 @@
 
 
         List<SelectListItem> listaAnos = PopulateAnosPNP(); 
+          
+
 }
+             
 
-<div class="text-center">
-                            <h1 class="display-1">Módulo de Exportação de Dados da PNP</h1>
-                            <p></a>.</p>
-                            </div>
 
-<form asp-page-handler="Index" method="GET">
-  <h1 class="display-5">Selecione os Anos da PNP</h1>
+      
+<v-app id="app">
+<div class="modal-overlay">
+        
+        <div class="modal">
+          
+            <div class="actions">
+                <a onclick="Modal.close()" href="#">
+                    <img  src="~/images/remove.svg" alt="Fechar">
+                </a>
+            </div>
 
-    <table style="width:700px; border: 0px solid black" >
+          <div class="check-container">
+
+            <div class = "img">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#2ecc71" viewBox="0 0 24 24"><path d="M19.78,2.2L24,6.42L8.44,22L0,13.55L4.22,9.33L8.44,13.55L19.78,2.2M19.78,5L8.44,16.36L4.22,12.19L2.81,13.55L8.44,19.17L21.19,6.42L19.78,5Z" /></svg>
+            </div>
+             
+          </div>
+
+           <h2 id="titleIncece">CSV processado</h2>
+            
+            <div class="descriptions">
+               @if(ViewBag.Arquivo !=null){
+
+            Console.Write(ViewBag.Arquivo);
+           
+             <p>CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros</p>
+                
+         }
+
+            </div>
+
+        </div>
+    </div>    
+    <v-container class="grid-container">
+      <v-card elevation="0" class="text-start">
+          <h2 class="titlepage">@ViewBag.Titulo</h2>  
+          <h2 class="titlepage">Painel @ViewBag.subTitulo</h2>
+          <p>CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros</p>
+        </v-card>
+        <!--
+          <form asp-page-handler="Index" onsubmit="Form.submit(event)" id="entradaDados" method="GET">
+            -->
+            <form asp-page-handler="Index"  method="GET">
+  <h5 >Selecione os Anos da PNP</h5>
+
+    <table style="tablecheckbox" >
     <tr>
       
         
 
         <tr>
-        <td style="vertical-align:top"  WIDTH=50%>
-             <p></p>
-          
+        <td style="vertical-align:top"  WIDTH=50%>          
                                     @{
                                               
                                             int i=0;
@@ -76,11 +117,6 @@
                                         
                                     </div>
 
-
-
-
-
-
         </td>
 
         </tr>
@@ -88,46 +124,29 @@
         <td style="vertical-align:top"  WIDTH=50%>
            <p></p>
         </td>
-
         </tr>
         </table>
-        <p></p>
-         
-         <button id="button1" type="submit"  class="btn btn-success" name="query" value=@ViewBag.query  asp-page-handler="Submit" >Processar CSV</button>
-<p></p>
-</form>
-           
-      
-        @if(ViewBag.Arquivo !=null){
-
-            Console.Write(ViewBag.Arquivo);
-           
-             <script>alert("CSV Gerado com Sucesso!!! Total de Registros="+@ViewBag.registros);</script>
-            
-            
-
-
-         <a href=@ViewBag.Arquivo download="pnp_academicosPNP.txt" title="Download CSV PNP" target="_blank">  Download CSV</a>
-         
-    
-
+        <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
        
-         }
-
-<div id="app">
-    <div class="text-center">
-    
-     <div>
-       <v-card>
-   
-          <v-card-title class="justify-center">Modulo de exportaçao</v-card-title>
+      
+        <v-btn value="@ViewBag.query" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar</v-btn>
         
-          <v-expansion-panels>
-          
-          </v-expansion-panels>
+         <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
+                Download CSV
+              </a>
+        <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
+                Download Dicionário de Dados
+              </a> 
+         <!--
+         <button id="button1" type="submit"  class="btnd process" name="query" value=@ViewBag.query  asp-page-handler="Submit" >Processar CSV</button>
+        -->
+</form>
   
+       <v-card style="width: 70%;" class="text-center">
+          <h5 class="titlepage">Tabela com 100 Registros para Análise</h5>        
           
           <v-data-table
+          style="z-index: 0;"
           :headers="headers"
           :items="desserts"
          
@@ -137,13 +156,10 @@
                 
       
         </v-card>
+      
+
     </v-container>
-          
-       
-    </div>
-</div>
 </v-app>
-        <p></p>
       
     
 
@@ -219,12 +235,13 @@ function myFunction() {
     array: [],
     headers: [
        
-        @Html.Raw(Model.Tabela.colunas)
+         @Html.Raw(Model.Tabela.colunas) 
  
         
         ],
         desserts: [
-        @Html.Raw(Model.Tabela.linhas)
+        
+         @Html.Raw(Model.Tabela.linhas) 
         
         ]
    

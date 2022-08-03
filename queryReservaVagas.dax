@@ -1,0 +1,28 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    dimUnidade[nomeUnidadeRecente],
+     dimVagas[tipoReservaVaga],
+      KEEPFILTERS( TREATAS( {"Graduação","Técnico"}, TipoCurso[Nível Curso] )),
+    "Vagas Regulares", [Vagas Regulares],
+    "Vagas Regulares %", ROUND([Vagas Regulares %]*100,2)
+)
+ORDER BY 
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+     dimUnidade[nomeUnidadeRecente],
+     dimVagas[tipoReservaVaga]
+    
+

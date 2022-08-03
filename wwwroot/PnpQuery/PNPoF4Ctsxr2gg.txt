@@ -1,1 +1,0 @@
-Ano;Região;UF;Estado;Organização Acadêmica;Instituicao;Instituição (Nome);nomeCurso;tipoCurso;tipoEixoTecnologico;SubeixoTecnologico;tipoOferta;turnoCurso;ModalidadeEnsino;nomeFonteFinanciamento;Número de cursos;Número de concluintes;Número de ingressantes;Número de inscritos;Número de Matrículas;Número de vagas;Matrícula Equivalente Apresentada Geral

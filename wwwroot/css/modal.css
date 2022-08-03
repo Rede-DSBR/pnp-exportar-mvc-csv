@@ -1,0 +1,108 @@
+*________________Button__________________*/
+button {
+    width: 50%;
+    height: 25px;
+    border: none;
+    color: white;
+    background: var(--blue);
+    padding: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+}
+
+
+
+/*________________Formulario__________________*/
+.formDados {
+    width: 40%;
+    margin: 5rem;
+    padding: auto;
+   
+}
+
+
+
+
+/*________________Modal__________________*/
+.modal-overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    width: 280px;
+    background: white;
+    border-radius: 0.25rem;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.modal #title {
+    padding-top: 5rem;
+
+}
+.actions {
+    margin-left: 80%;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.check-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check-container .img {
+    width: 30px;
+}
+
+.descriptions{
+  font-size: 14px;
+}
+
+
+
+  .actions  a img{
+    
+    width: 30px;
+    
+  }
+
+@media(max-width: 500px) {
+    .modal {
+        width: 90%;
+        height: 200px;
+        background: white;
+        border-radius: 0.25rem;
+        text-align: center;
+    
+    }
+    .modal #title {
+        padding-top: 1rem;
+    
+    }
+    .actions {
+        margin-left: 80%;
+        padding-top: 1rem;
+    }
+
+
+
+    
+
+}

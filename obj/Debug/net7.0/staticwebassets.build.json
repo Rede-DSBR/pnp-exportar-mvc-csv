@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KtPhdXFZIqAIhV8KwKCYyQ944QxF/cuZuw/TXhzNPoo=",
+  "Hash": "tc/Gz5I/r+RO1MfFDYldsXAVfPHp3F2tc9UvAYPeb/s=",
   "Source": "pnp-exportar-mvc-csv",
   "BasePath": "_content/pnp-exportar-mvc-csv",
   "Mode": "Default",
@@ -1462,6 +1462,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNP8BxDJMhr2gg.txt"
     },
     {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNP9MphcAps2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNP9MphcAps2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNP9MphcAps2gg.txt"
+    },
+    {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNP9ZTwqdBr2gg.txt",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -1496,6 +1513,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPAdWu1MJr2gg.txt"
     },
     {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPAFucpDNt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPAFucpDNt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPAFucpDNt2gg.txt"
+    },
+    {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPaNdrg81r2gg.txt",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -1528,6 +1562,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPaXn5hcRr2gg.txt"
+    },
+    {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPb07bIAps2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPb07bIAps2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPb07bIAps2gg.txt"
     },
     {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPbK5bxdBr2gg.txt",
@@ -1853,6 +1904,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPenkmps9r2gg.txt"
     },
     {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPfB5VQJ9s2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPfB5VQJ9s2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPfB5VQJ9s2gg.txt"
+    },
+    {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPfCjALc1r2gg.txt",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -1938,6 +2006,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPg-vmSM5r2gg.txt"
     },
     {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPGHhHgDJt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPGHhHgDJt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPGHhHgDJt2gg.txt"
+    },
+    {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPGrn2i8tr2gg.txt",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -2021,6 +2106,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPI12-LM1r2gg.txt"
+    },
+    {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPIbqGPAps2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPIbqGPAps2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPIbqGPAps2gg.txt"
+    },
+    {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPiCw4UDNt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPiCw4UDNt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPiCw4UDNt2gg.txt"
     },
     {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPijofcMdr2gg.txt",
@@ -2176,6 +2295,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPL5Psl9Br2gg.txt"
     },
     {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPle_0ojNt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPle_0ojNt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPle_0ojNt2gg.txt"
+    },
+    {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPllmy08tr2gg.txt",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -2191,6 +2327,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPllmy08tr2gg.txt"
+    },
+    {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPLQyYnjBt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPLQyYnjBt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPLQyYnjBt2gg.txt"
     },
     {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPltGSRsVr2gg.txt",
@@ -2448,6 +2601,40 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPQvEQqsRr2gg.txt"
     },
     {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPRv7dMDBt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPRv7dMDBt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPRv7dMDBt2gg.txt"
+    },
+    {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPs1fs8NBr2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPs1fs8NBr2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPs1fs8NBr2gg.txt"
+    },
+    {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPs9W-_M9r2gg.txt",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -2514,6 +2701,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPt5vRy8Rr2gg.txt"
+    },
+    {
+      "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPtQkGVDNt2gg.txt",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/PNPtQkGVDNt2gg.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\PNPtQkGVDNt2gg.txt"
     },
     {
       "Identity": "C:\\Pnp\\v1\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\PNPTWixb8tr2gg.txt",
