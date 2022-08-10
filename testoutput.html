@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: justify;
+    }
+
+    table {
+      font-family: 'PT Sans', Times, serif;
+      font-weight: lighter;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    
+    tr:nth-child(3) {
+      width: 70%;
+    }
+
+
+    .container {
+      margin-top: -50px;
+      max-width: 21cm;
+      height: 100%;
+      background: white;
+
+
+      padding: 2cm 2cm 1cm 1cm;
+    }
+
+    .center {
+      display: flex;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 14px;
+      font-weight: 300;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #11211B;
+    }
+    .content_project_info ul{
+      list-style: none;
+      height: 30vh;
+      margin: 0;
+      padding: 0;
+      
+    }
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+    }
+    .table_container table{
+
+      margin-bottom: 1.5rem;
+      
+
+    }
+    .table_title{
+      margin-bottom: 1rem;
+      font-weight: 600;
+
+    }
+    .table_info{
+      padding: 1rem 0 1rem 0;
+
+    }
+
+    .descriptionTable li {
+      font-weight: 200;
+      margin-bottom: 0.33rem;
+    
+    }
+
+
+
+ 
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+
+
+
+
+    <div class="title">
+      <div class="center"><img src="logo.png" width="100px"></div>
+
+
+    <div class="center"><h2>Plataforma Nilo Peçanha
+</h2></div></div>
+
+    <div class="content_project_description">
+
+    <p>A Plataforma Nilo Peçanha (PNP) é um ambiente virtual de coleta, validação e disseminação das estatísticas oficiais da Rede Federal de Educação Profissional, Científica e Tecnológica (Rede Federal). Tem como objetivo reunir dados relativos ao corpo docente, discente, técnico-administrativo e de gastos financeiros das unidades da Rede Federal, para fins de cálculo dos indicadores de gestão monitorados pela Secretaria de Educação Profissional e Tecnológica do Ministério da Educação (SETEC/MEC). 
+</p></div>
+  
+
+    <div class="content_project_info">
+
+    
+    <ul class="table_info"><li><strong>Equipe: </strong>Data Science BR
+</li><li><strong>Data: </strong>06/08/2022</li></ul></div>
+
+
+    <p style="font-size: 1.3rem;"><strong>Dicionário de dados </strong>Indicadores de gestão | Situação Matrícula</p>
+  
+
+    <div class="table_container">
+
+    <div><ul class="table_info"><li><strong>Tabela: </strong>d_IES</li><li><strong>Equipe: </strong>Data Science BR
+</li><li><strong>Data: </strong>06/08/2022</li></ul><ul class="table_info"><li><strong>Tabela: </strong>dimUnidade</li><li><strong>Equipe: </strong>Rede DSBR
+</li><li><strong>Data: </strong>06/08/2022		
+					   </li><li><strong>Descrição: </strong>Dimensão referente a localização das unidades de ensino da rede federal de educação superior
+</li></ul><ul class="table_info"><li><strong>Tabela: </strong>dimSituacao</li><li><strong>Equipe: </strong>Rede DSBR
+</li><li><strong>Data: </strong>06/08/2022		
+					   </li><li><strong>Descrição: </strong>Dimensão que representa a situação da matrícula do aluno podendo variar em: "Em curso", "Concluintes" e "Evadidos"
+</li></ul></div><div><table><tr><th>Tabela</th><th>Tipo de dados</th><th>Coluna</th><th>Descrição</th></tr><tr><td>d_IES</td><td>String</td><td>Região</td><td> região em que a instituição está localizada</td></tr><tr><td>d_IES</td><td>String</td><td>UF</td><td> unidade federativa</td></tr><tr><td>d_IES</td><td>String</td><td>Estado</td><td> estado</td></tr><tr><td>d_IES</td><td>String</td><td>Organização Acadêmica</td><td> organização
+acadêmica</td></tr><tr><td>dimUnidade</td><td>String</td><td>Instituicao</td><td> sigla da instituição</td></tr><tr><td>dimUnidade</td><td>String</td><td>Instituição (Nome)</td><td> nome da instituição</td></tr><tr><td>dimSituacao</td><td>String</td><td>categoriaSituacao</td><td> campo que representa a categoria da situação da matrícula do aluno</td></tr><tr><td>dimSituacao</td><td>String</td><td>nomeSituacao</td><td> campo que representa as variações das categorias de situação das matrículas dos alunos "em curso situação (em fluxo e retidos)" , "concluintes (concluído e integralizado)" e "evadidos (abandonado, cancelado, desligado, reprovado, transferência interna e transferência externa)"</td></tr><tr><td>dimSituacao</td><td>String</td><td>FluxoRetido</td><td> campo que agrupa as categorias de situação das matrículas que estão retidas</td></tr></table></div></div>
+
+    
+
+
+  </div>
+</body>
+
+</html>

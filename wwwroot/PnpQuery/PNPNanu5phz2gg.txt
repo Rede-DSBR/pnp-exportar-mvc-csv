@@ -1,1 +1,0 @@
-Ano;Sigla;Área de Avaliação;CPC (Faixa)

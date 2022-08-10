@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.43, )"
+            },
             "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64": {
               "target": "Package",
               "version": "[19.9.0.1-Preview, )"
@@ -49,6 +53,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.29, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             }
           },
           "imports": [

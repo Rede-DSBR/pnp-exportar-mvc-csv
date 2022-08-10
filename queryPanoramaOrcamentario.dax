@@ -1,0 +1,31 @@
+/* START QUERY BUILDER */
+EVALUATE
+SUMMARIZECOLUMNS(
+   
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+    dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    'ResultadoPrimario'[Resultado Primário (Cidadã)],
+    "Despesa Empenhada",[Despesa empenhada],
+    "Despesa Liquidada",[Despesa liquidada],
+    "Despesa Paga",[Despesa paga],
+    "Liquidação Total",[Despesa liq&RP],
+    "Despesa Empenhada a Liquidar",[Despesa empenhada a liquidar],
+    "Crédito Disponível",[Crédito Disponível]
+    
+        
+    
+)
+ORDER BY 
+    'dCalendário'[Ano],
+    d_IES[Região],
+    d_IES[UF],
+    d_IES[Estado],
+    d_IES[Organização Acadêmica],
+     dimUnidade[Instituicao],
+    dimUnidade[Instituição (Nome)],
+    'ResultadoPrimario'[Resultado Primário (Cidadã)]

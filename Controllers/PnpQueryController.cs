@@ -4,6 +4,8 @@ using pnp_exportar_mvc_csv.Models;
 using System.Collections;
 using QueryTool;
 using System.Web;
+using Microsoft.AnalysisServices.Tabular;
+
 
 namespace pnp_exportar_mvc_csv.Controllers;
 
@@ -26,6 +28,7 @@ public class PnpQueryController : Controller
     }
    
 
+
    
  
     [HttpGet]
@@ -37,6 +40,23 @@ public class PnpQueryController : Controller
         ViewBag.Titulo = sTitulo[0];
         ViewBag.subTitulo = sTitulo[1];
     FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
+    String[] d_IES_columns = new String[4] { "Região", "UF", "Estado", "Organização Acadêmica" };
+            String[] dimUnidade_columns = new String[2] { "Instituicao", "Instituição (Nome)" };
+            String[] dimSituacao_columns = new String[3] { "categoriaSituacao", "nomeSituacao", "FluxoRetido" };
+
+
+            Dictionary<String, String[]> dic1 = new Dictionary<String, String[]>() {
+                                                {"d_IES",d_IES_columns},
+                                                {"dimUnidade",dimUnidade_columns},
+                                                {"dimSituacao",dimSituacao_columns}};
+
+
+
+            TableCollection tables = facadeCargaDax.daoPowerBI.getDataModel();
+            TableHandler tableParser = new TableHandler(tables);
+            //tableParser.DeleteFileIfExists();
+            // tableParser.GenerateDocument();
+            String destId = tableParser.GenerateCustomTable(@"wwwroot\PnpQuery\/", dic1);
 
         HashSet<string> listaAnos = new HashSet<string>();
         for (int i= 0; i < ano.Length;i++){
@@ -100,7 +120,6 @@ public class PnpQueryController : Controller
 
         
             String colunas =    montaColunas(sAtributos!)[1];
-            Console.WriteLine(colunas);
               long ticks = DateTime.Now.Ticks;
               byte[] bytes = BitConverter.GetBytes(ticks);
               string idFile = Convert.ToBase64String(bytes)
@@ -114,6 +133,7 @@ public class PnpQueryController : Controller
         ViewBag.Arquivo = "/PnpQuery/"+arquivo;
         ViewBag.registros = listaPNP.Count;
         ViewBag.query = query;
+        ViewBag.Dicionario = "/PnpQuery/"+destId;
         this.gravaCSV(arquivo,listaPNP,colunas);
 
         
@@ -137,6 +157,8 @@ public class PnpQueryController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+
 
 
 
@@ -198,6 +220,7 @@ public class PnpQueryController : Controller
             Colunas[1] = Colunas[1] + Atributos[i].Trim().Replace("\'", "") + ";";
             c = c + 1;
         }
+        Console.WriteLine(Colunas);
         
         return Colunas;
 
