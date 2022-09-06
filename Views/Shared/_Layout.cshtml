@@ -17,10 +17,16 @@
 
     <link rel="stylesheet" href="~/css/multiselect.css" asp-append-version="true" />
 
+    <!-- Refactoring -->
+    <link rel="stylesheet" href="~/css/newSite.css" asp-append-version="true" />
 
 </head>
 
 <body>
+    <header class="header">
+        Extrator PNP
+        <embed type="image/svg+xml" src="~/assets/apps.svg" />
+    </header>
     <header>
         <nav>
             <div class="navbar">
@@ -135,6 +141,20 @@
 
 
                         </li>
+
+                          <li><a href="#">Indicadores de Gastos</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                            <ul class="js-sub-menu sub-menu">
+                                <li>
+                                    <a href="/PnpQuery?Ano=2021&query=queryIndicadoresGastos.dax&titulo=Indicadores de Gastos;Indicadores de Gastos"
+                                        title="Indicadores de Gastos">Indicadores de Gastos</a>
+                                </li>
+                              
+
+                            </ul>
+
+
+                        </li>
                         <li><a href="#">Dados INEP</a>
                             <i class='bx bxs-chevron-down js-arrow arrow '></i>
                             <ul class="js-sub-menu sub-menu">
@@ -199,7 +219,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - [v1].1.1.1
+            &copy; 2022 - [v1].2.1.1
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = pnp_exportar_mvc_csv
 build_property.RootNamespace = pnp_exportar_mvc_csv
-build_property.ProjectDir = C:\pnp\pnp-exportar-mvc-csv\
+build_property.ProjectDir = c:\pnp\pnp-exportar-mvc-csv\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\pnp\pnp-exportar-mvc-csv
+build_property.MSBuildProjectDirectory = c:\pnp\pnp-exportar-mvc-csv
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Home/Index.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Home/Privacy.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/PnpQuery/Index.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/PnpQuery/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG5wUXVlcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Pnp/IndexPNP.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Pnp/IndexPNP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG5wXEluZGV4UE5QLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Shared/Error.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Shared/nav.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Shared/nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXG5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/_ViewImports.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/_ViewStart.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/pnp/pnp-exportar-mvc-csv/Views/Shared/_Layout.cshtml]
+[c:/pnp/pnp-exportar-mvc-csv/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b1t12ec3x7

@@ -11,7 +11,7 @@ SUMMARIZECOLUMNS(
     "Servidores | Docente Efetivo", [Servidores | Docente Efetivo],
     "Servidores | Número de Docentes", [Servidores | Número de Docentes],
     "Servidores | Número de Servidores", [Servidores | Número de Servidores],
-    "Servidores | ITCD",  ROUND([Servidores | ITCD],2)
+    "Servidores | ITCD",  ROUND([Servidores | ITCD],1)
 )
 ORDER BY 
     'dCalendário'[Ano],

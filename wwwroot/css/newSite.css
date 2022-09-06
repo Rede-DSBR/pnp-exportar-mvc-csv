@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --blue-color: #23303e;
+    --gray-color: #f7f7f7;
+    --gray-300: #535c68;
+    --white-color: #ffffff;
+    --yellow-200: #f7eec2;
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-02: all 0.2s ease;
+}
+
+ol,
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+.header {
+    background: var(--blue-color);
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    color: #ffffff;
+    font-size: 24px;
+    align-items: center;
+}
+
+.header embed {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    height: 93vh;
+
+    background-color: #e6e5e5;
+}
+
+.nav_sidebar {
+    background-color: var(--gray-color);
+    width: 250px;
+    padding: 10px 14px;
+    border-right: 1px solid rgb(172, 165, 165);
+}
+
+nav .logo-name {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo_name {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 14px;
+    transition: var(--tran-05);
+}
+
+nav .menu-items {
+    margin-top: 40px;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-items li a {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+
+.nav-links li {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-links li a {
+    color: black;
+    margin-left: 10px;
+}
+
+.selected::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: white;
+    border-left: 1px solid rgb(172, 165, 165);
+    border-bottom: 1px solid rgb(172, 165, 165);
+    right: -22.1px;
+    top: 16px;
+}
+
+.nav-links li embed {
+    width: 24px;
+}
+
+#money {
+    width: 11.73px;
+    height: 24px;
+}
+
+/*alert*/
+
+.alert {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    color: var(--gray-300);
+    background: var(--yellow-200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.alert embed {
+    margin-right: 10px;
+    color: var(--gray-300);
+}
+
+/* dashboard */
+
+.dashboard {
+    background-color: var(--white-color);
+    min-height: 100%;
+
+    width: 100vw;
+}
+
+.content {
+    background: var(--white-color);
+    padding: 40px;
+}
+
+/* chips */
+
+.container-scroller {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-scroller>li {
+    border-radius: 5rem;
+    display: flex;
+    color: var(--blue-color);
+    background: #d9d9d9;
+    margin-left: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.3rem;
+    min-width: 70px;
+    margin-bottom: 0.3rem;
+    padding: 0.5rem 1rem;
+}
+
+.container-scroller> :nth-child(1) {
+    margin-left: 0;
+}
+
+li ul {
+    transform: scale(0, 0);
+    position: absolute;
+    top: 35px;
+    right: 0;
+    z-index: 1000;
+}
+
+li:focus ul {
+    transform: scale(1, 1);
+}
+
+li {
+    position: relative;
+    z-index: 1;
+}
+
+.container-scroller>.chip-selected {
+    background: var(--blue-color);
+    color: white;
+}
+
+.container-scroller li ul {
+    min-width: 200px;
+    margin-top: 0.9rem;
+    background: #d9d9d9;
+    color: var(--blue-color);
+    box-shadow: rgba(8, 4, 4, 0.24) 0px 3px 8px;
+    border-radius: 0 0 5px 5px;
+    border-top: 5px solid gray;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    z-index: 1000;
+}
+
+.container-scroller li ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--blue-color);
+    word-break: inherit;
+    margin-bottom: 1rem;
+
+}

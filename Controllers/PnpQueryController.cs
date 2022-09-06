@@ -40,23 +40,14 @@ public class PnpQueryController : Controller
         ViewBag.Titulo = sTitulo[0];
         ViewBag.subTitulo = sTitulo[1];
     FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
-    String[] d_IES_columns = new String[4] { "Região", "UF", "Estado", "Organização Acadêmica" };
-            String[] dimUnidade_columns = new String[2] { "Instituicao", "Instituição (Nome)" };
-            String[] dimSituacao_columns = new String[3] { "categoriaSituacao", "nomeSituacao", "FluxoRetido" };
-
-
-            Dictionary<String, String[]> dic1 = new Dictionary<String, String[]>() {
-                                                {"d_IES",d_IES_columns},
-                                                {"dimUnidade",dimUnidade_columns},
-                                                {"dimSituacao",dimSituacao_columns}};
-
 
 
             TableCollection tables = facadeCargaDax.daoPowerBI.getDataModel();
             TableHandler tableParser = new TableHandler(tables);
             //tableParser.DeleteFileIfExists();
-            // tableParser.GenerateDocument();
-            String destId = tableParser.GenerateCustomTable(@"wwwroot\PnpQuery\/", dic1);
+            // // tableParser.GenerateDocument();
+            // String destId = tableParser.GenerateCustomTable(@"wwwroot\PnpQuery\/", dic1);
+            string destId = facadeCargaDax.daoPowerBI.GenerateDataDictionary(query, @"wwwroot\PnpQuery\/", sTitulo[0]);
 
         HashSet<string> listaAnos = new HashSet<string>();
         for (int i= 0; i < ano.Length;i++){
@@ -136,7 +127,7 @@ public class PnpQueryController : Controller
         ViewBag.Dicionario = "/PnpQuery/"+destId;
         this.gravaCSV(arquivo,listaPNP,colunas);
 
-        
+       
 
         return View(model);
 
@@ -195,7 +186,7 @@ public class PnpQueryController : Controller
                 }
             }
 
-
+ 
           //  Console.WriteLine("Linhas" + this.Linhas);
         }
         catch (Exception e)
