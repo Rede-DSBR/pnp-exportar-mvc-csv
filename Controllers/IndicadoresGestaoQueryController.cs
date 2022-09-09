@@ -228,7 +228,8 @@ public class IndicadoresGestaoQueryController : Controller
        
 
 
-              string nameFile = "C:\\pnp\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\";
+            string nameFile = @"C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-csv\";
+            //string nameFile = "C:\\pnp\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\";
             
             
             

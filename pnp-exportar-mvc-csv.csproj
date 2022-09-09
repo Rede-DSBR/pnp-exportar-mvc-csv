@@ -10,6 +10,6 @@
   
 <ItemGroup>
     
-       <ProjectReference Include="C:\pnp\pnp-exportar-csv\Teste.csproj" />
+       <ProjectReference Include="C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-csv\Teste.csproj" />
   </ItemGroup>
 </Project>

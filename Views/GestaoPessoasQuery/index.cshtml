@@ -37,7 +37,7 @@
                     <li>
                         <embed type="image/svg+xml" src="~/assets/network.svg" />
 
-                        <a href="#">
+                        <a href="/">
                             <span class="link-name">Início</span>
                         </a>
                     </li>
@@ -55,21 +55,21 @@
                         <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
 
                         <a href="/IndicadoresGestaoQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
-                            <span class="link-name">Indicadores de gestão</span>
+                            <span class="link-name">Indicadores de Gestão</span>
                         </a>
                     </li>
                     <li>
                         <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
 
                         <a href="/OrcamentoQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário" title="Orçamentos">
-                            <span class="link-name">Dados orçamentários</span>
+                            <span class="link-name">Dados Orçamentários</span>
                         </a>
                     </li>
                     <li>
                         <embed  type="image/svg+xml" src="~/assets/management.svg" />
 
                         <a href="#">
-                            <span class="link-name">Dados de gestão pessoal</span>
+                            <span class="link-name">Dados de Gestão de Pessoas</span>
                         </a>
                     </li>
 
@@ -80,7 +80,7 @@
         <section class="dashboard">
             <div class="alert">
                 <embed  type="image/svg+xml" src="~/assets/check.svg" />
-                  CSV Gerado com Sucesso!!! Total de Registros=6955 
+                  CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros
             </div>
 
 
@@ -102,56 +102,48 @@
   <v-card elevation="0" class="text-start">
           <h2 class="titlepage">@ViewBag.Titulo</h2>  
           <h2 class="titlepage">Painel @ViewBag.subTitulo</h2>
-          <p>CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros</p>
         </v-card>
-  <form asp-page-handler="Index"  method="GET" class ="form-checkbox">
+  <v-card elevation="0">
+<form asp-page-handler="Index"  method="GET">
+    <v-card-actions>
+@{                                     
+        @foreach (var item in listaAnos){
+                Console.Write("entre");
+                Boolean chave =true;
+                      for (int x=0;x<Model.Tabela.Ano.Length;x++){
+                          if (Model.Tabela.Ano[x].Trim().Equals(@item.Value)){
+                                  <input id="@item.Text" type="checkbox" name="Ano" value="@item.Value" checked=true/>
+                                  <label for="@item.Text" class="ml-1 mr-1">@item.Text</label>
+                                
+                          chave=false;
+                      
+                      }
+                      }
 
-  @{
-                                              
-   
-                                       @foreach (var item in listaAnos){
-                                               Console.Write("entre");
-                                                Boolean chave =true;
-
-
-                                               
-
-                                                      for (int x=0;x<Model.Tabela.Ano.Length;x++){
-                                                          if (Model.Tabela.Ano[x].Trim().Equals(@item.Value)){
-                                                               <input id="A" type="checkbox" name="Ano" value="@item.Value" checked=true/>
-                                                                @item.Text
-                                                          chave=false;
-                                                      
-                                                      }
-                                                      }
-
-                                                    
-                                                    if (chave){
-                                                        <input id="A" type="checkbox" name="Ano" value="@item.Value" checked="@item.Selected"/>
-
-                                                   
-                                                      @item.Text
-
-                                                    }
-
-                                                   
-                                     
-                                                        
-                                                              
-                                       }
-                                       }
-    <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
-    <v-btn value="@ViewBag.query" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar 2.0</v-btn>
-        
-         <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
-                Download CSV
-              </a>
-              <a href="@ViewBag.Dicionario" class="button download" download="dicionarioPNP.pdf" target="_blank">
-                Download Dicionário de Dados
-              </a> 
-
-
-  </form>            
+                    
+                    if (chave){
+                        <input id="@item.Text" type="checkbox" name="Ano" value="@item.Value" checked="@item.Selected"/>    
+                        <label for="@item.Text" class="ml-1 mr-1">@item.Text</label>
+                    }                                   
+        }
+        }
+    </v-card-actions>
+    <v-card-actions class="pr-10">
+<input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
+            <v-btn value="@ViewBag.query" style="font-family: Poppins, sans-serif" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar 2.0</v-btn>
+<v-btn>
+            <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
+            Download CSV
+            </a>
+        </v-btn>
+        <v-btn>
+<a href="@ViewBag.Dicionario" class="button download" download="dicionarioPNP.pdf" target="_blank">
+    Download Dicionário de Dados
+    </a> 
+        </v-btn>    
+    </v-card-actions>
+    </form>          
+      </v-card>               
 
 
   

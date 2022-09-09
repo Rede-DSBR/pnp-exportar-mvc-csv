@@ -3712,7 +3712,6 @@
       "path": "system.appcontext/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4905,7 +4904,6 @@
       "path": "system.linq.expressions/4.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5133,7 +5131,6 @@
       "path": "system.objectmodel/4.0.12",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6001,7 +5998,6 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7420,32 +7416,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vini\\.nuget\\packages\\": {}
+    "C:\\Users\\ricar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
+      "projectUniqueName": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
       "projectName": "pnp-exportar-mvc-csv",
-      "projectPath": "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
-      "packagesPath": "C:\\Users\\vini\\.nuget\\packages\\",
-      "outputPath": "C:\\pnp\\pnp-exportar-mvc-csv\\obj\\",
+      "projectPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
+      "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\vini\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\pnp\\pnp-exportar-csv\\Teste.csproj": {
-              "projectPath": "C:\\pnp\\pnp-exportar-csv\\Teste.csproj"
+            "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj": {
+              "projectPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj"
             }
           }
         }

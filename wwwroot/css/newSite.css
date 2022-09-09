@@ -48,6 +48,10 @@ body {
     color: white;
 }
 
+.header a  {
+    color: white;
+}
+
 .wrapper {
     display: flex;
     min-height:93vh;
@@ -159,13 +163,12 @@ nav .menu-items {
     display: flex;
     color: var(--blue-color);
     background: #d9d9d9;
-    margin-left: 2rem;
+    margin-left: 1rem;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: start;
+    text-align: start;
     padding: 0.3rem;
     min-width: 200px;
-    margin-bottom: 0.3rem;
     padding: 0.5rem 1rem;
 }
 
@@ -176,17 +179,12 @@ nav .menu-items {
 li ul {
     transform: scale(0, 0);
     position: absolute;
-    top: 50px;
     right: 0;
     z-index: 1000;
-
-   
 }
 
 li:focus ul {
     transform: scale(1, 1);
-
-
 }
 li:hover ul {
     transform: scale(1, 1);
@@ -198,7 +196,9 @@ li {
     position: relative;
     z-index: 1;
 }
-
+.container-scroller{
+    margin-bottom: 1rem;
+}
 .container-scroller>.chip-selected {
     background: var(--blue-color);
     color: white;
@@ -206,27 +206,31 @@ li {
 
 .container-scroller li ul {
     min-width: 200px;
-    margin-top: 0.9rem;
     background: #d9d9d9;
     color: var(--blue-color);
-    box-shadow: rgba(8, 4, 4, 0.24) 0px 3px 8px;
-    border-radius: 0 0 5px 5px;
-    border-top: 5px solid gray;
-    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    border-top: 10px solid #fff;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     z-index: 1000;
+    margin-top: 30px;
 }
 
 .container-scroller li ul li {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     color: var(--blue-color);
     word-break: inherit;
     margin-bottom: 1rem;
 
+}
+
+.container-scroller li ul li a{
+    color: var(--blue-color);
+    word-break: inherit;
 }
 
 /* table content */
@@ -245,4 +249,8 @@ li {
 .container-content-2{
     background: yellow;
     height: 100%;
+}
+
+.footer{
+    background-color: #f7f7f7;
 }
