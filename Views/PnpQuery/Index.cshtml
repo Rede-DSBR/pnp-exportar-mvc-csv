@@ -20,68 +20,124 @@
           
 
 }
-             
+@{
+    ViewData["Title"] = "Home Page";
 
 
-      
-<v-app id="app">
-<div class="modal-overlay">
-        
-        <div class="modal">
-          
-            <div class="actions">
-                <a onclick="Modal.close()" href="#">
-                    <img  src="~/images/remove.svg" alt="Fechar">
-                </a>
+
+}
+
+ <nav class="nav_sidebar ">
+
+
+            <div class="menu-items">
+                <ul class="nav-links">
+                    <!-- Dados acâdemicos-->
+
+                    <li>
+                        <embed type="image/svg+xml" src="~/assets/network.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Início</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <embed type="image/svg+xml" src="~/assets/home.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Rede Federal EPCT</span>
+                        </a>
+
+                    </li>
+
+                       <li>
+                        <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Indicadores de gestão</span>
+                        </a>
+                    </li>
+                    <li>
+                        <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Dados orçamentários</span>
+                        </a>
+                    </li>
+                    <li>
+                        <embed  type="image/svg+xml" src="~/assets/management.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Dados de gestão pessoal</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <section class="dashboard">
+            <div class="alert">
+                <embed  type="image/svg+xml" src="~/assets/check.svg" />
+                  CSV Gerado com Sucesso!!! Total de Registros=6955 
             </div>
 
-          <div class="check-container">
 
-            <div class = "img">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="#2ecc71" viewBox="0 0 24 24"><path d="M19.78,2.2L24,6.42L8.44,22L0,13.55L4.22,9.33L8.44,13.55L19.78,2.2M19.78,5L8.44,16.36L4.22,12.19L2.81,13.55L8.44,19.17L21.19,6.42L19.78,5Z" /></svg>
-            </div>
-             
-          </div>
-
-           <h2 id="titleIncece">CSV processado</h2>
             
-            <div class="descriptions">
-               @if(ViewBag.Arquivo !=null){
+            <div class="content">
+                 <nav>
+        <div class="container-scroller" id="container">
+          <li tabindex="0" class="chip-selected">🎓 Dados Acadêmicos 
+            <ul>
+              <li> Curso, matricula e oferta</li>
+              <li> Classificação racial, renda e sexo</li>
+              <li>Situação Matricula</li>
+            </ul>
+            
+          </li>
+          <li  tabindex="0"> 🗒️ Percentuais Legais
 
-            Console.Write(ViewBag.Arquivo);
-           
-             <p>CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros</p>
-                
-         }
+            <ul>
+              <li> teste</li>
+              <li> Imagens</li>
+              <li> teste</li>
+            </ul>
+          
+          </li>
+          <li  tabindex="0"> 🎓 Indicadores Acadêmicos
 
-            </div>
-
+            <ul>
+              <li> teste</li>
+              <li> Imagens</li>
+              <li> teste</li>
+            </ul>
+          
+          </li>
         </div>
-    </div>    
-    <v-container class="grid-container">
-      <v-card elevation="0" class="text-start">
+
+      </nav>                       
+           
+
+    
+
+
+
+
+
+<v-app id="app">
+  <v-card elevation="0" class="text-start">
           <h2 class="titlepage">@ViewBag.Titulo</h2>  
           <h2 class="titlepage">Painel @ViewBag.subTitulo</h2>
           <p>CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros</p>
         </v-card>
-        <!--
-          <form asp-page-handler="Index" onsubmit="Form.submit(event)" id="entradaDados" method="GET">
-            -->
-            <form asp-page-handler="Index"  method="GET">
-  <h5 >Selecione os Anos da PNP</h5>
+  <form asp-page-handler="Index"  method="GET">
 
-    <table style="tablecheckbox" >
-    <tr>
-      
-        
-
-        <tr>
-        <td style="vertical-align:top"  WIDTH=50%>          
-                                    @{
+  @{
                                               
-                                            int i=0;
-                                            @foreach (var item in listaAnos){
-                                                Console.Write("entre");
+   
+                                       @foreach (var item in listaAnos){
+                                               Console.Write("entre");
                                                 Boolean chave =true;
 
 
@@ -106,30 +162,13 @@
                                                     }
 
                                                    
-                                                      
-                                                      i++;
+                                     
                                                         
-
-                                                    
-                                              }                                   
+                                                              
                                        }
-                                        
-                                        
-                                    </div>
-
-        </td>
-
-        </tr>
-        <tr>
-        <td style="vertical-align:top"  WIDTH=50%>
-           <p></p>
-        </td>
-        </tr>
-        </table>
-        <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
-       
-      
-        <v-btn value="@ViewBag.query" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar</v-btn>
+                                       }
+    <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
+    <v-btn value="@ViewBag.query" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar 2.0</v-btn>
         
          <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
                 Download CSV
@@ -137,16 +176,17 @@
               <a href="@ViewBag.Dicionario" class="button download" download="dicionarioPNP.pdf" target="_blank">
                 Download Dicionário de Dados
               </a> 
-         <!--
-         <button id="button1" type="submit"  class="btnd process" name="query" value=@ViewBag.query  asp-page-handler="Submit" >Processar CSV</button>
-        -->
-</form>
+
+
+  </form>            
+
+
   
-       <v-card style="width: 70%;" class="text-center">
-          <h5 class="titlepage">Tabela com 100 Registros para Análise</h5>        
-          
+       <v-card 
+       
+        class="text-center d-flex justify-start">
           <v-data-table
-          style="z-index: 0;"
+          style="z-index: 0; width:80%"
           :headers="headers"
           :items="desserts"
          
@@ -280,3 +320,10 @@ function setHourglass()
 
 
 </script>
+
+
+  
+  
+
+  </div>
+        </section>

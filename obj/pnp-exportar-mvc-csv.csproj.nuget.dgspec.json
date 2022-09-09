@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\pnp\\pnp-exportar-csv\\Teste.csproj",
         "projectName": "Teste",
         "projectPath": "C:\\pnp\\pnp-exportar-csv\\Teste.csproj",
-        "packagesPath": "C:\\Users\\dsbr\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\vini\\.nuget\\packages\\",
         "outputPath": "C:\\pnp\\pnp-exportar-csv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dsbr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vini\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -65,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -84,11 +85,11 @@
         "projectUniqueName": "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
         "projectName": "pnp-exportar-mvc-csv",
         "projectPath": "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
-        "packagesPath": "C:\\Users\\dsbr\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\vini\\.nuget\\packages\\",
         "outputPath": "C:\\pnp\\pnp-exportar-mvc-csv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dsbr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\vini\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -121,7 +122,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -133,7 +135,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

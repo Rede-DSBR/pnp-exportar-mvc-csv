@@ -39,7 +39,7 @@ public class PnpQueryController : Controller
         String[] sTitulo = titulo.Split(";");
         ViewBag.Titulo = sTitulo[0];
         ViewBag.subTitulo = sTitulo[1];
-    FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
+        FacadeCargaDax facadeCargaDax = new FacadeCargaDax();
 
 
             TableCollection tables = facadeCargaDax.daoPowerBI.getDataModel();
@@ -207,7 +207,7 @@ public class PnpQueryController : Controller
         for(int i=0;i<Atributos.Length;i++)
         {
 
-            Colunas[0] = Colunas[0] + "{text:'" + Atributos[i].Trim().Replace("\'","") + "', align:'start',sortable: false, value: 'c" + c + "',},";
+            Colunas[0] = Colunas[0] + "{text:'" + Atributos[i].Trim().Replace("\'","") + "', align:'start',sortable: false, value: 'c" + c + "',width:'1%'},";
             Colunas[1] = Colunas[1] + Atributos[i].Trim().Replace("\'", "") + ";";
             c = c + 1;
         }

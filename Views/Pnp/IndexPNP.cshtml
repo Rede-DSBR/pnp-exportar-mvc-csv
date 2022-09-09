@@ -20,95 +20,164 @@
         List<SelectListItem> listaFatos = PopulateFatos(); 
         List<SelectListItem> listaAnos = PopulateAnosPNP(); 
 }
+@{
+    ViewData["Title"] = "Home Page";
+
+
+
+}
+
+ <nav class="nav_sidebar ">
+
+
+            <div class="menu-items">
+                <ul class="nav-links">
+                    <!-- Dados acâdemicos-->
+
+                    <li>
+                        <embed type="image/svg+xml" src="~/assets/network.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Início</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <embed type="image/svg+xml" src="~/assets/home.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Rede Federal EPCT</span>
+                        </a>
+
+                    </li>
+
+                    <li class="selected">
+                        <embed type="image/svg+xml" src="~/assets/graph.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Indiadores de gestão</span>
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Dados orçamentários</span>
+                        </a>
+                    </li>
+                    <li>
+                        <embed  type="image/svg+xml" src="~/assets/management.svg" />
+
+                        <a href="#">
+                            <span class="link-name">Dados de gestão pessoal</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <section class="dashboard">
+            <div class="alert">
+                <embed  type="image/svg+xml" src="~/assets/check.svg" />
+                  CSV Gerado com Sucesso!!! Total de Registros=6955 
+            </div>
+            <div class="content">
+                 <nav>
+        <div class="container-scroller" id="container">
+          <li tabindex="0" class="chip-selected">🎓 Dados Acadêmicos 
+            <ul>
+              <li> Curso, matricula e oferta</li>
+              <li> Classificação racial, renda e sexo</li>
+              <li>Situação Matricula</li>
+            </ul>
+            
+          </li>
+          <li  tabindex="0"> 🗒️ Percentuais Legais
+
+            <ul>
+              <li> teste</li>
+              <li> Imagens</li>
+              <li> teste</li>
+            </ul>
+          
+          </li>
+          <li  tabindex="0"> 🎓 Indicadores Acadêmicos
+
+            <ul>
+              <li> teste</li>
+              <li> Imagens</li>
+              <li> teste</li>
+            </ul>
+          
+          </li>
+        </div>
+
+      </nav>                       
+            </div>
+            
+             <a href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta"
+                                        title="Curso, matrícula e oferta">Curso, matrícula e oferta</a>
+
+
+ 
 
 <div class="text-center">
                             <h1 class="display-5">Módulo de Exportação de Dados da PNP</h1>
                             <p></a>.</p>
                             </div>
 
-<form asp-page-handler="PNP" method="POST">
+<form asp-page-handler="Index" onsubmit="Form.submit(event)" id="entradaDados" method="GET">
+  <h5 >Selecione os Anos da PNP</h5>
 
-    <table style="width:700px; border: 0px solid black" >
+    <table style="tablecheckbox" >
     <tr>
-        <td  style="vertical-align:top" WIDTH=50%>
-                        
-                            
-
-
-
-                                <div id="listD" class="dropdown-check-listD" tabindex="100">
-                                <span class="anchorD">Selecione Dimensões</span>
-                                 <ul class="items">
-                                    @foreach (var item in listaDimensao){
-                                                
-
-                                                     <li>
-                                                    <input id="D" type="checkbox" name="Dimensao" value="@item.Value" checked="@item.Selected"/>
-                                                    @item.Text
-                                                     </li>
-                                                   
-                                                 
-
-                                                }
-   
-                                </ul>
-                         </div>
-                                
-        </td>
-        </tr>
-        <tr>
+      
         
 
-        <td style="vertical-align:top"  WIDTH=50%>
-            <p></p>
-                            <div id="listF" class="dropdown-check-listD" tabindex="100">
-                                <span class="anchorD">Selecione Fatos PNP*</span>
-                                 <ul class="items">
-
-                                            @foreach (var item in listaFatos){
-                                                    
-
-                                                         <li>
-                                                        <input id="@item.Value" type="checkbox" name="Fato" value="@item.Value" checked="@item.Selected"/>
-                                                        @item.Text
-                                                         </li>
-
-                                                    }
-                                        </ul>
-                                        
-                                    </div>
-                                    
-
-         </td>
-         </tr>
-          </tr>
         <tr>
-        <td style="vertical-align:top"  WIDTH=50%>
-             <p></p>
-             <div id="listA" class="dropdown-check-listA" tabindex="100">
-                                <span class="anchorA">Selecione Filtro Anos</span>
-                                 <ul class="items">
+        <td style="vertical-align:top"  WIDTH=50%>          
                                     @{
-                                            
+                                              
+                                            int i=0;
                                             @foreach (var item in listaAnos){
                                                 Console.Write("entre");
-                                                    
+                                                Boolean chave =true;
 
-                                                         <li>
+
+                                               
+
+                                                      for (int x=0;x<Model.Tabela.Ano.Length;x++){
+                                                          if (Model.Tabela.Ano[x].Trim().Equals(@item.Value)){
+                                                               <input id="A" type="checkbox" name="Ano" value="@item.Value" checked=true/>
+                                                                @item.Text
+                                                          chave=false;
+                                                      
+                                                      }
+                                                      }
+
+                                                    
+                                                    if (chave){
                                                         <input id="A" type="checkbox" name="Ano" value="@item.Value" checked="@item.Selected"/>
-                                                    @item.Text
-                                                         </li>
+
+                                                   
+                                                      @item.Text
 
                                                     }
-                                    }
-                                        </ul>
+
+                                                   
+                                                      
+                                                      i++;
+                                                        
+
+                                                    
+                                              }                                   
+                                       }
+                                        
                                         
                                     </div>
-
-
-
-
-
 
         </td>
 
@@ -117,15 +186,23 @@
         <td style="vertical-align:top"  WIDTH=50%>
            <p></p>
         </td>
-
         </tr>
         </table>
-        <p></p>
-         <button id="button1" type="submit"  class="btn btn-success" name="acao" value="processar"  asp-page-handler="Submit" >Processar</button>
-<p></p>
-              
-           
-       </form>
+        <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
+       
+      
+        <button value="@ViewBag.query" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar</button>
+        
+         <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
+                Download CSV
+              </a>
+              <a href="@ViewBag.Dicionario" class="button download" download="dicionarioPNP.pdf" target="_blank">
+                Download Dicionário de Dados
+              </a> 
+         <!--
+         <button id="button1" type="submit"  class="btnd process" name="query" value=@ViewBag.query  asp-page-handler="Submit" >Processar CSV</button>
+        -->
+</form>
          <form asp-page-handler="PNP" method="Post">
             @if (Model.Tabela.Dimnesao != null)
             {
@@ -360,3 +437,4 @@ function setHourglass()
 
 
 </script>
+       </section>
