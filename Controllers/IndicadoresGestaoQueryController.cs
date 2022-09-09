@@ -9,7 +9,7 @@ using Microsoft.AnalysisServices.Tabular;
 
 namespace pnp_exportar_mvc_csv.Controllers;
 
-public class PnpQueryController : Controller
+public class IndicadoresGestaoQueryController : Controller
 {
     public string colunasTabela { get; set; } = "";
 
@@ -22,7 +22,7 @@ public class PnpQueryController : Controller
 
     private readonly ILogger<HomeController> _logger;
 
-    public PnpQueryController(ILogger<HomeController> logger)
+    public IndicadoresGestaoQueryController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }

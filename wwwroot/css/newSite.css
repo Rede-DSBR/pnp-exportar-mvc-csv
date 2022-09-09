@@ -8,6 +8,7 @@
 :root {
     --blue-color: #23303e;
     --gray-color: #f7f7f7;
+    --gray-400:#d9d9d9;
     --gray-300: #535c68;
     --white-color: #ffffff;
     --yellow-200: #f7eec2;
@@ -49,16 +50,15 @@ body {
 
 .wrapper {
     display: flex;
-    height: 93vh;
-
-    background-color: #e6e5e5;
+    min-height:93vh;
+    background-color: var(----gray-color);
 }
 
 .nav_sidebar {
-    background-color: var(--gray-color);
-    width: 250px;
+    background-color: var(--white-color);
+    min-width: 250px;
     padding: 10px 14px;
-    border-right: 1px solid rgb(172, 165, 165);
+    height: 100%;
 }
 
 nav .logo-name {
@@ -76,7 +76,7 @@ nav .logo_name {
 
 nav .menu-items {
     margin-top: 40px;
-    height: calc(100% - 90px);
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -133,6 +133,8 @@ nav .menu-items {
 
     min-height: 100%;
     width: 100vw;
+    border-left: 1px solid var(--gray-300);
+    overflow-x: scroll;
 }
 
 .content {
@@ -147,6 +149,9 @@ nav .menu-items {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+
+  
 }
 
 .container-scroller>li {
@@ -154,12 +159,12 @@ nav .menu-items {
     display: flex;
     color: var(--blue-color);
     background: #d9d9d9;
-    margin-left: 3rem;
+    margin-left: 2rem;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 0.3rem;
-    min-width: 70px;
+    min-width: 200px;
     margin-bottom: 0.3rem;
     padding: 0.5rem 1rem;
 }
@@ -171,13 +176,22 @@ nav .menu-items {
 li ul {
     transform: scale(0, 0);
     position: absolute;
-    top: 35px;
+    top: 50px;
     right: 0;
     z-index: 1000;
+
+   
 }
 
 li:focus ul {
     transform: scale(1, 1);
+
+
+}
+li:hover ul {
+    transform: scale(1, 1);
+  
+
 }
 
 li {

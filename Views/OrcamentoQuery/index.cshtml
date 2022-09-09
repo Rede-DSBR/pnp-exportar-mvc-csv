@@ -1,4 +1,4 @@
-﻿
+
 @using QueryTool
 @using System.Collections
 
@@ -54,22 +54,23 @@
                        <li>
                         <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
 
-                        <a href="#">
+                        <a href="/IndicadoresGestaoQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
                             <span class="link-name">Indicadores de gestão</span>
                         </a>
                     </li>
                     <li>
                         <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
 
-                        <a href="#">
+                        <a href="/OrcamentoQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário" title="Orçamentos">
                             <span class="link-name">Dados orçamentários</span>
                         </a>
                     </li>
                     <li>
                         <embed  type="image/svg+xml" src="~/assets/management.svg" />
 
-                        <a href="#">
-                            <span class="link-name">Dados de gestão pessoal</span>
+                        
+                        <a href="/GestaoPessoasQuery?Ano=2021&query=queryCargosCarreira.dax&titulo=Gestão de Pessoas;Cargos da Carreira" title="Gestão de Pessoas">
+                            <span class="link-name">Dados de gestão de pessoas</span>
                         </a>
                     </li>
 
@@ -87,34 +88,7 @@
             
             <div class="content">
                  <nav>
-        <div class="container-scroller" id="container">
-          <li tabindex="0" class="chip-selected">🎓 Dados Acadêmicos 
-            <ul>
-              <li> Curso, matricula e oferta</li>
-              <li> Classificação racial, renda e sexo</li>
-              <li>Situação Matricula</li>
-            </ul>
-            
-          </li>
-          <li  tabindex="0"> 🗒️ Percentuais Legais
-
-            <ul>
-              <li> teste</li>
-              <li> Imagens</li>
-              <li> teste</li>
-            </ul>
-          
-          </li>
-          <li  tabindex="0"> 🎓 Indicadores Acadêmicos
-
-            <ul>
-              <li> teste</li>
-              <li> Imagens</li>
-              <li> teste</li>
-            </ul>
-          
-          </li>
-        </div>
+    
 
       </nav>                       
            
@@ -184,9 +158,9 @@
   
        <v-card 
        
-        class="text-center d-flex justify-start">
+        class="text-center d-flex justify-start mt-15">
           <v-data-table
-          style="z-index: 0; width:80%"
+          style="z-index: 0; width:100%"
           :headers="headers"
           :items="desserts"
          

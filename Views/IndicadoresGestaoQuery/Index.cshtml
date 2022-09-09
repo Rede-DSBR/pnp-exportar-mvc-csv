@@ -1,4 +1,26 @@
-﻿@{
+﻿
+@using QueryTool
+@using System.Collections
+
+
+ @model IndexViewModel;
+
+  <link href="https://cdn.jsdelivr.net/npm/&#64;mdi/font&#64;4.x/css/materialdesignicons.min.css" rel="stylesheet">
+
+@{
+    ViewData["Title"] = "Home Page";
+    
+  //  @Model.teste
+
+   
+   
+
+
+        List<SelectListItem> listaAnos = PopulateAnosPNP(); 
+          
+
+}
+@{
     ViewData["Title"] = "Home Page";
 
 
@@ -29,25 +51,24 @@
 
                     </li>
 
-          
                        <li>
                         <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
 
-                        <a href="/IndicadoresGestaoQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
+                        <a  href="/IndicadoresGestaoQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
                             <span class="link-name">Indicadores de gestão</span>
                         </a>
                     </li>
-
                     <li>
                         <embed id="money" type="image/svg+xml" src="~/assets/money.svg" />
 
-                      <a href="/OrcamentoQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário" title="Orçamentos">
+                        <a href="/OrcamentoQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário">
                             <span class="link-name">Dados orçamentários</span>
                         </a>
                     </li>
                     <li>
                         <embed  type="image/svg+xml" src="~/assets/management.svg" />
 
+                        
                         <a href="/GestaoPessoasQuery?Ano=2021&query=queryCargosCarreira.dax&titulo=Gestão de Pessoas;Cargos da Carreira" title="Gestão de Pessoas">
                             <span class="link-name">Dados de gestão de pessoas</span>
                         </a>
@@ -62,9 +83,12 @@
                 <embed  type="image/svg+xml" src="~/assets/check.svg" />
                   CSV Gerado com Sucesso!!! Total de Registros=6955 
             </div>
+
+
+            
             <div class="content">
                  <nav>
-            <div class="container-scroller" id="container">
+        <div class="container-scroller" id="container">
           <li tabindex="0" class="chip-selected">🎓 Dados Acadêmicos 
             <ul>
               <li><a href="/IndicadoresGestaoQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta"title="Curso, matrícula e oferta">Curso, matrícula e oferta</a></li>
@@ -126,10 +150,213 @@
         </div>
 
       </nav>                       
-            </div>
+           
 
-             <a href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta"
-                                        title="Curso, matrícula e oferta">Curso, matrícula e oferta</a>
+    
 
 
+
+
+
+<v-app id="app">
+  <v-card elevation="0" class="text-start">
+          <h2 class="titlepage">@ViewBag.Titulo</h2>  
+          <h2 class="titlepage">Painel @ViewBag.subTitulo</h2>
+          <p>CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros</p>
+        </v-card>
+  <form asp-page-handler="Index"  method="GET">
+
+  @{
+                                              
+   
+                                       @foreach (var item in listaAnos){
+                                               Console.Write("entre");
+                                                Boolean chave =true;
+
+
+                                               
+
+                                                      for (int x=0;x<Model.Tabela.Ano.Length;x++){
+                                                          if (Model.Tabela.Ano[x].Trim().Equals(@item.Value)){
+                                                               <input id="A" type="checkbox" name="Ano" value="@item.Value" checked=true/>
+                                                                @item.Text
+                                                          chave=false;
+                                                      
+                                                      }
+                                                      }
+
+                                                    
+                                                    if (chave){
+                                                        <input id="A" type="checkbox" name="Ano" value="@item.Value" checked="@item.Selected"/>
+
+                                                   
+                                                      @item.Text
+
+                                                    }
+
+                                                   
+                                     
+                                                        
+                                                              
+                                       }
+                                       }
+    <input type="hidden" id="fname" name="titulo" value="@ViewBag.Titulo;@ViewBag.subTitulo">
+    <v-btn value="@ViewBag.query" color="#2ecc71" dark type="submit" name="query"  asp-page-handler="Submit">Processar 2.0</v-btn>
+        
+         <a href="@ViewBag.Arquivo" class="button download" download="pnp_academicosPNP.txt" target="_blank">
+                Download CSV
+              </a>
+              <a href="@ViewBag.Dicionario" class="button download" download="dicionarioPNP.pdf" target="_blank">
+                Download Dicionário de Dados
+              </a> 
+
+
+  </form>            
+
+
+  
+       <v-card 
+       
+        class="text-center d-flex justify-start mt-15">
+          <v-data-table
+          style="z-index: 0; width:100%"
+          :headers="headers"
+          :items="desserts"
+         
+          :items-per-page="5"
+          class="elevation-1"
+        ></v-data-table>
+                
+      
+        </v-card>
+      
+
+    </v-container>
+</v-app>
+      
+    
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+
+@{
+
+
+      List<SelectListItem> PopulateAnosPNP()
+    {
+        List<SelectListItem> items = new List<SelectListItem>();
+        AnosPNP anosPNP = new AnosPNP();
+
+        
+        foreach (var item in anosPNP.listaAnos)
+
+        {
+            //    dimensoes = dimensoes + "\'" + item.ToString().Trim().Replace("\'","")+"\',";
+
+            items.Add(new SelectListItem
+            {
+                Text = item.ToString(),
+                Value = item.ToString(),
+                Selected = (item.ToString().Equals(AnosPNP.anocorrente)?true:false)
+            });
+        }
+
+
+        //     itemsDimensao = items;
+        //   Console.WriteLine(dimensoes);
+        return items;
+    }
+
+
+
+
+   
+
+
+
+
+   
+}
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
+
+<script type="text/javascript" charset="utf-8">
+
+
+
+
+  let app = new Vue({
+      el: '#app',
+       vuetify: new Vuetify({
+
+          icons: {
+        iconFont: "md",
+    },
+       }),
+    
+    
+    
+   data: {  
+    teste :['dudu'],
+    selectedDim :[],
+    selectedFact: ['John'],
+    array: [],
+    headers: [
+       
+         @Html.Raw(Model.Tabela.colunas) 
+ 
+        
+        ],
+        desserts: [
+        
+         @Html.Raw(Model.Tabela.linhas) 
+        
+        ]
+   
+   
+   },
+   methods: {
+    greet: function (event) {
+
+         $.ajax({
+            type: "GET",
+            url: "./Search",
+            data:  $("#query").val(),
+            dataType: "json",
+            success: OnSuccess,
+            failure: function (response) {
+                alert(response.d);
+            }
+        });
+     
+     
+    }
+   
+   }
+  }
+  )
+
+    
+function setHourglass()
+ {
+   document.body.style.cursor = 'wait';
+ }
+  
+   
+
+
+
+
+</script>
+
+
+  
+  
+
+  </div>
         </section>
