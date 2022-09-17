@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/css/fonts/segoe/SegoeUI.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 :root {
@@ -33,12 +40,12 @@ body {
 
 .header {
     background: var(--blue-color);
+    background-image: url("../images/FAIXA\ CABEÇALHO\ EXTRATOR\ PNP.png");
+    background-size: contain;
     height: 7vh;
     display: flex;
     justify-content: space-between;
     padding-left: 3rem;
-    padding-right: 3rem;
-
     color: #ffffff;
     font-size: 24px;
     align-items: center;
@@ -54,15 +61,12 @@ body {
 
 .wrapper {
     display: flex;
-    min-height:93vh;
-    background-color: var(----gray-color);
 }
 
 .nav_sidebar {
-    background-color: var(--white-color);
-    min-width: 250px;
-    padding: 10px 14px;
+    min-width: 300px;
     height: 100%;
+    margin-top: 2.5rem;
 }
 
 nav .logo-name {
@@ -79,11 +83,10 @@ nav .logo_name {
 }
 
 nav .menu-items {
-    margin-top: 40px;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-items li a {
@@ -93,24 +96,48 @@ nav .menu-items {
     position: relative;
 }
 
+
+
 .nav-links li {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     position: relative;
+    padding: 10px;
 }
 
 .nav-links li a {
-    color: black;
-    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    width: 50%;
 }
 
-.nav-links li embed {
+.nav-links li img {
+    width: 36px;
+}
+
+#dolar {
     width: 24px;
 }
 
-#money {
-    width: 11.73px;
-    height: 24px;
+.nav-links li:nth-child(1) {
+    background-color: #324355;
+}
+
+.nav-links li:nth-child(2) {
+    background-color: #4e6a85;
+}
+
+.nav-links li:nth-child(3) {
+    background-color: #d6ac03;
+}
+
+.nav-links li:nth-child(4) {
+    background-color: #949494;
+}
+
+#app{
+    width: 100%;
 }
 
 /*alert*/
@@ -134,42 +161,44 @@ nav .menu-items {
 /* dashboard */
 
 .dashboard {
-
     min-height: 100%;
     width: 100vw;
-    border-left: 1px solid var(--gray-300);
     overflow-x: scroll;
 }
 
 .content {
     background: var(--white-color);
-    padding: 40px;
-
+    margin-top: 2.5rem;
 }
 
 /* chips */
 
 .container-scroller {
     display: flex;
+    background-image: url('../images/texturabg.png');
+    height: 150px;
     justify-content: flex-start;
-    align-items: center;
-
-
-  
+    align-items: start;
+    padding-top: 1rem;
 }
 
-.container-scroller>li {
-    border-radius: 5rem;
-    display: flex;
-    color: var(--blue-color);
-    background: #d9d9d9;
-    margin-left: 1rem;
-    align-items: center;
-    justify-content: start;
-    text-align: start;
-    padding: 0.3rem;
-    min-width: 200px;
-    padding: 0.5rem 1rem;
+    .container-scroller > li {
+        display: flex;
+        color: var(--blue-color);
+        background: #d9d9d9;
+        margin-left: 1px;
+        align-items: start;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 2rem;
+        min-width: 200px;
+        min-height: 30px;
+    }
+
+.percent{
+    color: blue;
+    margin-right: 5px;
 }
 
 .container-scroller> :nth-child(1) {
@@ -182,6 +211,17 @@ li ul {
     right: 0;
     z-index: 1000;
 }
+
+.container-scroller > li:hover {
+    background-color: #4e6a85;
+    color: #fff;
+}
+
+.container-scroller > li:focus {
+    background-color: #4e6a85;
+    color: #fff;
+}
+
 
 li:focus ul {
     transform: scale(1, 1);
@@ -196,35 +236,30 @@ li {
     position: relative;
     z-index: 1;
 }
-.container-scroller{
-    margin-bottom: 1rem;
-}
-.container-scroller>.chip-selected {
-    background: var(--blue-color);
-    color: white;
-}
+
 
 .container-scroller li ul {
     min-width: 200px;
-    background: #d9d9d9;
-    color: var(--blue-color);
-    border-radius: 5px;
-    border-top: 10px solid #fff;
+    width: 100%;
+    background-color: #d8dde1;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    z-index: 1000;
-    margin-top: 30px;
+    justify-content: center;
+    margin-top: 27px;
+    border-top: 1px solid #4e6a85;
+    border-bottom: 1px solid #4e6a85;
 }
 
 .container-scroller li ul li {
     width: 100%;
     display: flex;
     justify-content: start;
+    font-size: 11px;
+    text-align: start;
     color: var(--blue-color);
     word-break: inherit;
-    margin-bottom: 1rem;
+    padding: 5px 15px;
 
 }
 
@@ -237,11 +272,7 @@ li {
 
 .container-content{
     display: flex;
-    justify-content: center;
-    display: none;
     align-items: center;
-    background: red;
-    padding: 40px;
     width: 100%;
     height: 100%;
 }
@@ -253,4 +284,8 @@ li {
 
 .footer{
     background-color: #f7f7f7;
+}
+
+.fundotec{
+    width: 100%;
 }

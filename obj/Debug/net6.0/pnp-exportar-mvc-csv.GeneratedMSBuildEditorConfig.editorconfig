@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-mvc-csv
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/GestaoPessoasQuery/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGFvUGVzc29hc1F1ZXJ5XGluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -27,16 +23,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/IndicadoresGestaoQuery/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kaWNhZG9yZXNHZXN0YW9RdWVyeVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/OrcamentoQuery/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JjYW1lbnRvUXVlcnlcaW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/Pnp/IndexPNP.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG5wXEluZGV4UE5QLmNzaHRtbA==
+[C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/PnpQuery/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG5wUXVlcnlcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ricar/Documents/work/programming/csharp/Extrator/pnp-exportar-mvc-csv/Views/Shared/Error.cshtml]

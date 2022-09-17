@@ -6,10 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>pnp_exportar_mvc_csv</RootNamespace>
   </PropertyGroup>
-
-  
 <ItemGroup>
-    
        <ProjectReference Include="C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-csv\Teste.csproj" />
   </ItemGroup>
 </Project>
