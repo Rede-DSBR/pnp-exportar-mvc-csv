@@ -190,9 +190,9 @@ nav .menu-items {
         align-items: start;
         justify-content: center;
         text-align: center;
-        font-size: 14px;
+        font-size: max(10px, 1em);
         padding: 5px 2rem;
-        min-width: 200px;
+        width: 15rem;
         min-height: 30px;
     }
 
@@ -236,6 +236,7 @@ li {
     position: relative;
     z-index: 1;
 }
+
 
 
 .container-scroller li ul {

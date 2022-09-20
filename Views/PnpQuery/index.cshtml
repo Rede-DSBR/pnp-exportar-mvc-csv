@@ -202,9 +202,32 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                             </div>
                         </form>
                     </v-card>
-
-                    <v-data-table style="overflow-x: scroll;" :headers="headers" :items="desserts" :items-per-page="5" class="mt-5 elevation-2">
-                    </v-data-table>
+                    <div class="d-flex flex-column align-center justify-center" style="max-width: 60vw">
+                        <v-data-table 
+                        :headers="headers" 
+                        :items="desserts" 
+                        hide-default-footer
+                        :page.sync="page"
+                        :items-per-page="itemsPerPage"
+                        class="mt-5 elevation-2">
+                        </v-data-table>
+                            <div 
+                            class="d-flex pt-3 justify-center"
+                            style="width: 100%;">
+                            <v-subheader>Linhas por Página</v-subheader>
+                                <v-select
+                                :items="optionsItemsPerPage"
+                                v-model="itemsPerPage"
+                                label="Linhas por Página"
+                                style="max-width: 400px;"
+                                solo></v-select>
+                            </div>
+                            <v-pagination
+                            v-model="page"
+                            :length="pageCount">
+                            </v-pagination>
+                        
+                    </div>
             </div>
 
         </div>
@@ -277,6 +300,9 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
 
 
                         data: {
+                            page: 1,
+                            itemsPerPage: 10,
+                            optionsItemsPerPage: [5, 10, 25, 50, 100],
                             teste: ['dudu'],
                             selectedDim: [],
                             selectedFact: ['John'],
@@ -295,6 +321,14 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
    
    
    },
+                    computed: {
+                        totalRecords() {
+          return this.desserts.length
+      },
+                        pageCount() {
+          return this.totalRecords / this.itemsPerPage
+      },
+                    },
                     methods: {
                         greet: function (event) {
 
@@ -311,6 +345,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
 
 
                         }
+
 
                     }
   }
