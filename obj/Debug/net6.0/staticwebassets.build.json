@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QMmidmGslJGPMjEhkfGOGeJz5g7xdbRS/JbTXrlXeVw=",
+  "Hash": "YdgunHq7E7Knv4xPVbcKkJ5s8uu+B/Y9iyb64Afh368=",
   "Source": "pnp-exportar-mvc-csv",
   "BasePath": "_content/pnp-exportar-mvc-csv",
   "Mode": "Default",
@@ -1989,6 +1989,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDados7uLt9Pea2gg.pdf"
     },
     {
+      "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDados8rnWF-ia2gg.pdf",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/DicionarioDados8rnWF-ia2gg.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDados8rnWF-ia2gg.pdf"
+    },
+    {
       "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDados9CJQBvaa2gg.pdf",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -2123,6 +2140,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosbkDWf-Ga2gg.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosBqyHHLyc2gg.pdf",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/DicionarioDadosBqyHHLyc2gg.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosBqyHHLyc2gg.pdf"
     },
     {
       "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosc9MwwfWa2gg.pdf",
@@ -3043,6 +3077,23 @@
       "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosOcaZNvKa2gg.pdf"
     },
     {
+      "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosOIn_K7Wc2gg.pdf",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/DicionarioDadosOIn_K7Wc2gg.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosOIn_K7Wc2gg.pdf"
+    },
+    {
       "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosoipaS_ya2gg.pdf",
       "SourceId": "pnp-exportar-mvc-csv",
       "SourceType": "Discovered",
@@ -3279,6 +3330,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadossJIbvvSa2gg.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosSS-P0cGc2gg.pdf",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/DicionarioDadosSS-P0cGc2gg.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosSS-P0cGc2gg.pdf"
     },
     {
       "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadossyrt-Oaa2gg.pdf",
@@ -3755,6 +3823,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosylcG3eya2gg.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosypQ3Gbyc2gg.pdf",
+      "SourceId": "pnp-exportar-mvc-csv",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\",
+      "BasePath": "_content/pnp-exportar-mvc-csv",
+      "RelativePath": "PnpQuery/DicionarioDadosypQ3Gbyc2gg.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PnpQuery\\DicionarioDadosypQ3Gbyc2gg.pdf"
     },
     {
       "Identity": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\DicionarioDadosZ_oBQ_6a2gg.pdf",
