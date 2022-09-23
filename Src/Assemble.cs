@@ -42,7 +42,7 @@ public class Assemble
         for (int i = 0; i < Atributos.Length; i++)
         {
 
-            Colunas[0] = Colunas[0] + "{text:'" + Atributos[i].Trim().Replace("\'", "") + "', align:'start',sortable: false, value: 'c" + c + "',width:'1%'},";
+            Colunas[0] = Colunas[0] + "{text:'" + Atributos[i].Trim().Replace("\'", "") + "', align:'start', color: '#fff', class: 'backheader', sortable: false, value: 'c" + c + "',width:'1%'},";
             Colunas[1] = Colunas[1] + Atributos[i].Trim().Replace("\'", "") + ";";
             c = c + 1;
         }

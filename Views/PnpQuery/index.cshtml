@@ -60,88 +60,136 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
             </nav>
             </nav>
             <div class="content ml-3">
-  
+                @{
+                    if(ViewBag.Titulo == "Dados Acadêmicos"){
+                        <div class="container-scroller" id="container">
+    <li tabindex="0">
+        📘 Dados Acadêmicos
+        <ul>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta"
+                    title="Curso, matrícula e oferta">Curso, matrícula e oferta</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=querySituacaoMatricula.dax&titulo=Indicadores de Acadêmicos;Situacao Matricula"
+                    title="Situação Matricula">Situação Matricula</a>
+            </li>
 
-                            <div class="container-scroller" id="container">
-                        <li tabindex="0">📘 Dados Acadêmicos
-                            <ul>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta"
-                                        title="Curso, matrícula e oferta">Curso, matrícula e oferta</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=querySituacaoMatricula.dax&titulo=Indicadores de Acadêmicos;Situacao Matricula"
-                                        title="Situação Matricula">Situação Matricula</a></li>
+            <li>
+                <a
+                    href="/PnpQuery?Ano=2021&query=queryCassificacaoRacialRendaSexo.dax&titulo=Dados Acadêmicos;Classificação Racial, Renda, Sexo e Faixa Etária">Classificação
+                    racial, renda e sexo</a>
+            </li>
+        </ul>
+    </li>
+    <li tabindex="0">
+        <div class="percent">%</div>
+        Percentuais Legais
 
-                                <li><a
-                                        href="/PnpQuery?Ano=2021&query=queryCassificacaoRacialRendaSexo.dax&titulo=Dados Acadêmicos;Classificação Racial, Renda, Sexo e Faixa Etária">Classificação
-                                        racial, renda e sexo</a></li>
+        <ul>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryPercentuaisLegais.dax&titulo=Percentuais Legais;Percentuais Legais"
+                    title="Percentuais Legais">Percentuais Legais</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryReservaVagas.dax&titulo=Percentuais Legais;Reserva de Vagas"
+                    title="Reserva de Vagas">Reserva de Vagas</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryOfertaVagasNoturnas.dax&titulo=Percentuais Legais;Oferta de Vagas Noturnas"
+                    title="Oferta de Vagas Noturnas">Oferta de Vagas Noturnas</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryRelacaoInscritosVagas.dax&titulo=Percentuais Legais;Relação Inscritos/Vagas"
+                    title="Relação Inscritos/Vagas">Relação Inscritos/Vagas</a>
+            </li>
+        </ul>
+    </li>
+    <li tabindex="0">
+        🎓 Indicadores Acadêmicos
 
-                            </ul>
+        <ul>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryTaxaEvasao.dax&titulo=Indicadores de Acadêmicos;Taxa de Evasão"
+                    title="Taxa de Evasão">Taxa de Evasão</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryEficienciaAcademica.dax&titulo=Indicadores de Acadêmicos;Eficiência Acadêmica"
+                    title="Eficiência Acadêmica">Eficiência Acadêmica</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryRelacaoAlunoProfessorRAP.dax&titulo=Indicadores de Acadêmicos;Relação Aluno Professsor (RAP)"
+                    title="Relação Aluno Professsor (RAP)">Relação Aluno Professsor (RAP)</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryIndiceVerticalizacao.dax&titulo=Indicadores de Acadêmicos;Índice de Verticalização"
+                    title="Índice de Verticalização">Índice de Verticalização</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryTaxaOcupacao.dax&titulo=Indicadores de Acadêmicos;Taxa de Ocupação"
+                    title="Taxa de Ocupação">Taxa de Ocupação</a>
+            </li>
+        </ul>
+    </li>
+    <li tabindex="0">
+        🚻 Indicadores de Pessoal
 
-                        </li>
+        <ul>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryTitulacaoDocente.dax&titulo=Indicadores de Pessoal;Titulação Docente"
+                    title="Titulação Docente">Titulação Docente</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryTecnicosAdmNivel.dax&titulo=Indicadores de Pessoal;Técnico Administrativo por Nível"
+                    title="Técnico Administrativo por Nível">
+                    Técnico Administrativo por Nível</a>
+            </li>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryProfessoresPorInstituicao.dax&titulo=Indicadores de Pessoal;Professores Por Instituição"
+                    title="Professores Por Instituição">
+                    Professores Por Instituição</a>
+            </li>
+        </ul>
+    </li>
+    <li tabindex="0">
+        💲 Indicadores de Gastos
+
+        <ul>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryIndicadoresGastos.dax&titulo=Indicadores de Gastos;Indicadores de Gastos"
+                    title="Indicadores de Gastos">Indicadores de Gastos</a>
+            </li>
+        </ul>
+    </li>
+    <li tabindex="0">
+        📊 Dados INEP
+
+        <ul>
+            <li>
+                <a href="/PnpQuery?Ano=2021&query=queryIGC.dax&titulo=Dados INEP;Índice Geral de Cursos"
+                    title="Índice Geral de Cursos">Índice Geral de Cursos</a>
+            </li>
+        </ul>
+    </li>
+</div>
+                    }
+                    else
+                    {
+                        <div class="container-scroller" id="container">
                         <li tabindex="0">
-                            <div class="percent"> % </div> Percentuais Legais
-
+                            📘
+                            @ViewBag.Titulo
                             <ul>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryPercentuaisLegais.dax&titulo=Percentuais Legais;Percentuais Legais"
-                                        title="Percentuais Legais">Percentuais Legais</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryReservaVagas.dax&titulo=Percentuais Legais;Reserva de Vagas"
-                                        title="Reserva de Vagas">Reserva de Vagas</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryOfertaVagasNoturnas.dax&titulo=Percentuais Legais;Oferta de Vagas Noturnas"
-                                        title="Oferta de Vagas Noturnas">Oferta de Vagas Noturnas</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryRelacaoInscritosVagas.dax&titulo=Percentuais Legais;Relação Inscritos/Vagas"
-                                        title="Relação Inscritos/Vagas">Relação Inscritos/Vagas</a></li>
-                            </ul>
-
-                        </li>
-                        <li tabindex="0"> 🎓 Indicadores Acadêmicos
-
-                            <ul>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryTaxaEvasao.dax&titulo=Indicadores de Acadêmicos;Taxa de Evasão"
-                                        title="Taxa de Evasão">Taxa de Evasão</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryEficienciaAcademica.dax&titulo=Indicadores de Acadêmicos;Eficiência Acadêmica"
-                                        title="Eficiência Acadêmica">Eficiência Acadêmica</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryRelacaoAlunoProfessorRAP.dax&titulo=Indicadores de Acadêmicos;Relação Aluno Professsor (RAP)"
-                                        title="Relação Aluno Professsor (RAP)">Relação Aluno Professsor (RAP)</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryIndiceVerticalizacao.dax&titulo=Indicadores de Acadêmicos;Índice de Verticalização"
-                                        title="Índice de Verticalização">Índice de Verticalização</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryTaxaOcupacao.dax&titulo=Indicadores de Acadêmicos;Taxa de Ocupação"
-                                        title="Taxa de Ocupação">Taxa de Ocupação</a></li>
-                            </ul>
-
-
-                        </li>
-                        <li tabindex="0"> 🚻 Indicadores de Pessoal
-
-                            <ul>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryTitulacaoDocente.dax&titulo=Indicadores de Pessoal;Titulação Docente"
-                                        title="Titulação Docente">Titulação Docente</a></li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryTecnicosAdmNivel.dax&titulo=Indicadores de Pessoal;Técnico Administrativo por Nível"
-                                        title="Técnico Administrativo por Nível"> Técnico Administrativo por Nível</a>
+                                <li>
+                                    <a> 
+                                        @ViewBag.subTitulo
+                                    </a>
                                 </li>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryProfessoresPorInstituicao.dax&titulo=Indicadores de Pessoal;Professores Por Instituição"
-                                        title="Professores Por Instituição"> Professores Por Instituição</a></li>
-
                             </ul>
-
-
                         </li>
-                        <li tabindex="0"> 💲 Indicadores de Gastos
-
-                            <ul>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryIndicadoresGastos.dax&titulo=Indicadores de Gastos;Indicadores de Gastos"
-                                        title="Indicadores de Gastos">Indicadores de Gastos</a></li>
-                            </ul>
-
-                        </li>
-                        <li tabindex="0"> 📊 Dados INEP
-
-                            <ul>
-                                <li><a href="/PnpQuery?Ano=2021&query=queryIGC.dax&titulo=Dados INEP;Índice Geral de Cursos"
-                                        title="Índice Geral de Cursos">Índice Geral de Cursos</a></li>
-                            </ul>
-
-                        </li>
-
-                    </div>
+                        </div>
+                    }
+                }
 
 
                     <v-card elevation="0" class="text-start">
@@ -178,7 +226,9 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                                 <div class="d-flex mr-5">
                                     <input type="hidden" id="fname" name="titulo"
                                         value="@ViewBag.Titulo;@ViewBag.subTitulo">
-                                    <v-btn value="@ViewBag.query" color="#85C300" class="mr-2" dark type="submit"
+                                    <v-btn 
+                                    id="processar"
+                                    value="@ViewBag.query" color="#85C300" class="mr-2" dark type="submit"
                                         name="query" asp-page-handler="Submit">Processar</v-btn>
                                     <v-btn class="mr-2">
                                         <a href="@ViewBag.Arquivo" class="button download"
@@ -196,13 +246,15 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                                 <div style="width: 100%;">
                                     <v-btn block elevation="0">
                                         <v-icon class="mr-2" color="#52D480">mdi-check-circle</v-icon>
-                                        CSV Gerado com Sucesso!!! Total de Registros=@ViewBag.registros
+                                        Total de Registros 100 de @ViewBag.registros
                                     </v-btn>
                                 </div>
                             </div>
                         </form>
                     </v-card>
-                    <div class="d-flex flex-column align-center justify-center" style="max-width: 60vw">
+                    <div 
+                    class="d-flex flex-column align-center justify-center" 
+                    style="max-width: 1350px">
                         <v-data-table 
                         :headers="headers" 
                         :items="desserts" 
@@ -219,14 +271,14 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                                 :items="optionsItemsPerPage"
                                 v-model="itemsPerPage"
                                 label="Linhas por Página"
-                                style="max-width: 400px;"
+                                style="max-width: 100px;"
                                 solo></v-select>
                             </div>
                             <v-pagination
                             v-model="page"
                             :length="pageCount">
                             </v-pagination>
-                        
+                            
                     </div>
             </div>
 
@@ -355,5 +407,13 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                     function setHourglass() {
                         document.body.style.cursor = 'wait';
                     }
+                </script>
+                <script>
+                    function startLoading(){
+                        $('#processar').click(function(){
+                            $(".load-spinner").toggleClass("remove-none");
+                        });
+                    }
+                    
                 </script>
                 </div>

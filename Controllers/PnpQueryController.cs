@@ -5,6 +5,8 @@ using System.Collections;
 using QueryTool;
 using Microsoft.AnalysisServices.Tabular;
 
+using System.Text;
+
 using pnp_exportar_mvc_csv.Src;
 
 namespace pnp_exportar_mvc_csv.Controllers;
@@ -84,5 +86,12 @@ public class PnpQueryController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
+
+
+    public IActionResult DownloadCSV(String colunas)
+    {
+        string Colunas = colunas.ToString().Substring(0, colunas.Length - 1);
+        return File(Encoding.UTF8.GetBytes(Colunas), "text/plain", "foo.csv");
     }
 }
