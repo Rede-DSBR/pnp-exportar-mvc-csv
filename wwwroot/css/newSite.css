@@ -56,7 +56,13 @@ body {
     align-items: center;
     position: relative;
     font-weight: 600;
+    font-size: 1em;
     left: 15%;
+}
+
+.header img{
+    width: 48px;
+    margin-left: 5px;
 }
 
 
