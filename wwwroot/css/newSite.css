@@ -72,13 +72,16 @@ body {
 .wrapper {
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content: start;
 }
 
 .nav_sidebar {
-    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
     height: 100%;
-    margin-top: 2.5rem;
+    min-width: 220px;
+    /* margin-top: 2.5rem; */
+    background: linear-gradient(180deg, #5D8095 0%, #709658 47.92%, #AEAE43 100%);
 }
 
 nav .logo-name {
@@ -90,23 +93,22 @@ nav .logo_name {
     font-size: 22px;
     font-weight: 600;
     color: var(--text-color);
-    margin-left: 14px;
+    /* margin-left: 14px; */
     transition: var(--tran-05);
 }
 
 nav .menu-items {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
 }
-
+/* 
 .menu-items li a {
     display: flex;
     align-items: center;
     height: 60px;
     position: relative;
-}
+} */
 
 
 
@@ -306,4 +308,62 @@ li {
 .backheader{
     background-color: rgba(78, 106, 133, 0.4);
     color: #fff;
+}
+
+.container-top{
+    display: flex;
+}
+
+.container-banner{
+    height: 100vh;
+    width: 100vw;
+    padding-left: 12px;
+}
+
+.banner{
+    background-image: url('../images/fundobg.png');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-banner{
+    background: linear-gradient(90deg, rgba(93,128,150,1) 0%, rgba(117,156,74,1) 46%, rgba(223,190,61,1) 100%);
+    height: 12vh;
+    width: 70%;
+}
+
+.content-banner{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content-banner .titles{
+    display: block;
+}
+
+.banner h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.content-banner .titles h4{
+    font-size: 22pt;
+    font-weight: 400;
+    color: #d6ac03;
+}
+
+.banner img{
+    width: 10rem;
+    margin-left: 10px;
 }

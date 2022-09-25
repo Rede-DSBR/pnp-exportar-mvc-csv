@@ -16,15 +16,15 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
 
     <v-app id="app">
         <div class="d-flex">
-            <nav class="nav_sidebar">
-                <div class="menu-items">
-                    <ul class="nav-links">
+            <nav class="nav_sidebar" >
+                <div class="menu-items" >
+                    <ul class="nav-links" style="padding: 0;">
                         <!-- Dados acâdemicos-->
 
                         <li>
                             <img type="image/svg+xml" src="~/images/inicio.png" />
 
-                            <a href="/">
+                            <a href="/" >
                                 <span class="link-name">Início</span>
                             </a>
                         </li>
@@ -33,6 +33,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                             <img type="image/svg+xml" src="~/images/gestao.png" />
 
                             <a
+                                @@click="overlay = !overlay"
                                 href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
                                 <span class="link-name">Indicadores de Gestão</span>
                             </a>
@@ -41,7 +42,9 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                         <li>
                             <img type="image/svg+xml" id="dolar" src="~/images/orcamento.png" />
 
-                            <a href="/PnpQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário"
+                            <a 
+                            @@click="overlay = !overlay"
+                            href="/PnpQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário"
                                 title="Orçamentos">
                                 <span class="link-name">Dados Orçamentários</span>
                             </a>
@@ -49,7 +52,9 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                         <li>
                             <img type="image/svg+xml" src="~/images/pessoas.png" />
 
-                            <a href="/PnpQuery?Ano=2021&query=queryCargosCarreira.dax&titulo=Gestão de Pessoas;Cargos da Carreira"
+                            <a 
+                            @@click="overlay = !overlay"
+                            href="/PnpQuery?Ano=2021&query=queryCargosCarreira.dax&titulo=Gestão de Pessoas;Cargos da Carreira"
                                 title="Gestão de Pessoas">
                                 <span class="link-name">Dados de Gestão de Pessoas</span>
                             </a>
@@ -228,6 +233,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                                         value="@ViewBag.Titulo;@ViewBag.subTitulo">
                                     <v-btn 
                                     id="processar"
+                                    @@click="overlay = !overlay"
                                     value="@ViewBag.query" color="#85C300" class="mr-2" dark type="submit"
                                         name="query" asp-page-handler="Submit">Processar</v-btn>
                                     <v-btn class="mr-2">
@@ -255,6 +261,12 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                     <div 
                     class="d-flex flex-column align-center justify-center" 
                     style="max-width: 1350px">
+                    <v-overlay :value="overlay">
+                        <v-progress-circular
+                            indeterminate
+                            size="64"
+                        ></v-progress-circular>
+                    </v-overlay>
                         <v-data-table 
                         :headers="headers" 
                         :items="desserts" 
@@ -277,8 +289,10 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                             <v-pagination
                             v-model="page"
                             :length="pageCount">
+                            @TempData["query"]
                             </v-pagination>
-                            
+                            <a asp-action="Download"
+                            title="Relação Aluno Professsor (RAP)">Relação Aluno Professsor (RAP)</a>
                     </div>
             </div>
 
@@ -352,6 +366,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
 
 
                         data: {
+                            overlay: false,
                             page: 1,
                             itemsPerPage: 10,
                             optionsItemsPerPage: [5, 10, 25, 50, 100],
@@ -381,6 +396,13 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
           return this.totalRecords / this.itemsPerPage
       },
                     },
+                    watch: {
+                    overlay (val) {
+                        val && setTimeout(() => {
+                        this.overlay = false
+                        }, 10000)
+                    },
+                    },
                     methods: {
                         greet: function (event) {
 
@@ -407,13 +429,5 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                     function setHourglass() {
                         document.body.style.cursor = 'wait';
                     }
-                </script>
-                <script>
-                    function startLoading(){
-                        $('#processar').click(function(){
-                            $(".load-spinner").toggleClass("remove-none");
-                        });
-                    }
-                    
                 </script>
                 </div>
