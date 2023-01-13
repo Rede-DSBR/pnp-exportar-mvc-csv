@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj": {}
+    "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj": {
+    "C:\\pnp\\pnp-exportar-csv\\Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj",
+        "projectUniqueName": "C:\\pnp\\pnp-exportar-csv\\Teste.csproj",
         "projectName": "Teste",
-        "projectPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj",
-        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\obj\\",
+        "projectPath": "C:\\pnp\\pnp-exportar-csv\\Teste.csproj",
+        "packagesPath": "C:\\Users\\Pesquisador\\.nuget\\packages\\",
+        "outputPath": "C:\\pnp\\pnp-exportar-csv\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Pesquisador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,25 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj": {
+    "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
+        "projectUniqueName": "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
         "projectName": "pnp-exportar-mvc-csv",
-        "projectPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
-        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-mvc-csv\\obj\\",
+        "projectPath": "C:\\pnp\\pnp-exportar-mvc-csv\\pnp-exportar-mvc-csv.csproj",
+        "packagesPath": "C:\\Users\\Pesquisador\\.nuget\\packages\\",
+        "outputPath": "C:\\pnp\\pnp-exportar-mvc-csv\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Pesquisador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,15 +99,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj": {
-                "projectPath": "C:\\Users\\ricar\\Documents\\work\\programming\\csharp\\Extrator\\pnp-exportar-csv\\Teste.csproj"
+              "C:\\pnp\\pnp-exportar-csv\\Teste.csproj": {
+                "projectPath": "C:\\pnp\\pnp-exportar-csv\\Teste.csproj"
               }
             }
           }
@@ -130,6 +120,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64": {
+              "target": "Package",
+              "version": "[19.9.0.1-Preview, )"
+            },
+            "Microsoft.AnalysisServices.NetCore.retail.amd64": {
+              "target": "Package",
+              "version": "[19.6.0-Preview, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -149,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,32 @@
-/* START QUERY BUILDER */
 EVALUATE
 SUMMARIZECOLUMNS(
-      fCPC[ Ano],
-      d_IES[Sigla],
-    fCPC[ Área de Avaliação],
-    fCPC[ CPC (Faixa)],
-     KEEPFILTERS( FILTER( ALL( d_IES[Organização Acadêmica Sigla PNP] ), NOT( ISBLANK( d_IES[Organização Acadêmica Sigla PNP] ))))
-  
+'dCalendário'[Ano],
+dimUnidade[nomeUnidade],
+dimUnidade[nomeUnidadeRecente],
+'d_IES'[Sigla],
+'d_IES'[Região],
+'d_IES'[Estado],
+'_fCPC'[Tipo],
+'fCPC'[SiglaIES],
+'fCPC'[Nome do Curso],
+'fCPC'[nomeArea],
+"Nota Padronizada CPC Contínuo", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_CPC Contínuo]), 2)),
+"Nota Padronizada Enade", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_Enade]), 2)),
+"Nota Padronizada Docentes doutores", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_DocentesDoutores]), 2)),
+"Nota Padronizada Docentes mestres", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_DocentesMestres]), 2)),
+"Nota Padronizada Índice IDD", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_IDD]), 2)),
+"Nota Padronizada Infraestrutura e instalações", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_Infraestrutura]), 2)),
+"Nota Padronizada Org. didático-pedagógica", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_OrgDidaticoPedagogica]), 2)),
+"Nota Padronizada Oport. ampliação da formação", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNP_OportunidadesAmpliacaoFormacao]), 2)),
+"Nota Padronizada Regime de trabalho docente", CALCULATE (MAX('fCPC'[gNP_RegimeTrabalho])),
+"Nota Bruta Docentes doutores", CALCULATE ( ROUND ( MAX ( 'fCPC'[gNB_DocentesDoutores]), 2)),
+"Nota Bruta Docentes mestres", CALCULATE ( ROUND ( MAX ('fCPC'[gNB_DocentesMestres]), 2)),
+"Nota Bruta Índice IDD", CALCULATE ( ROUND ( MAX ('fCPC'[gNB_IDD]), 2)),
+"Nota Bruta Infraestrutura e instalações", CALCULATE ( ROUND ( MAX ('fCPC'[gNB_Infraestrutura]), 2)),
+"Nota Bruta Org. didático-pedagógica", CALCULATE ( ROUND ( MAX ('fCPC'[gNB_OrgDidaticoPedagogica]), 2)),
+"Nota Bruta Oport. ampliação da formação", CALCULATE ( ROUND ( MAX ('fCPC'[gNB_OportunidadesAmpliacaoFormacao]), 2)),
+"Nota Bruta Regime de trabalho docente", CALCULATE (MAX ('fCPC'[gNB_RegimeTrabalho])),
+"Cursos", [Cursos],
+"Indicador", ROUND ([Medida CPC], 2)
 )
-ORDER BY 
-    fCPC[ Ano],
-     d_IES[Sigla],
-    fCPC[ Área de Avaliação],
-    fCPC[ CPC (Faixa)]
+   

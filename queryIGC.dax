@@ -1,15 +1,19 @@
-/* START QUERY BUILDER */
 EVALUATE
-SUMMARIZECOLUMNS(
+SUMMARIZECOLUMNS (
     'dCalendário'[Ano],
-    d_IES[Sigla],
-    fIGC[ IGC (Contínuo)],
-    fIGC[ IGC (Faixa)],
-    KEEPFILTERS( FILTER( ALL( 'fCPC'[ Área de Avaliação]) , NOT( 'fCPC'[ Área de Avaliação]) IN {"Área de Avaliação"} )),
-    KEEPFILTERS( FILTER( ALL( dimUnidade[Instituicao] ), NOT( dimUnidade[Instituicao] IN {"CPII"} ))),
-    KEEPFILTERS( FILTER( ALL( d_IES[Organização Acadêmica Sigla PNP] ), NOT( ISBLANK( d_IES[Organização Acadêmica Sigla PNP] ))))
+    'd_IES'[Sigla],
+    'd_IES'[Região],
+    'd_IES'[Estado],
+    'fIGC'[ Sigla da IES],
+    "IGC (Faixa)", CALCULATE ( MAX ( 'fIGC'[g_IGC (Faixa)] ) ),
+    "IGC (Contínuo)", CALCULATE ( ROUND ( MAX ( fIGC[IGC (Contínuo)] ), 2 ) ),
+    "Cursos com CPC no triênio", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Cursos com CPC no triênio] ), 2 ) ),
+    "Conceito Médio de Graduação", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Conceito Médio de Graduação] ), 2 ) ),
+    "Conceito Médio de Mestrado", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Conceito Médio de Mestrado] ), 2 ) ),
+    "Conceito Médio do Doutorado", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Conceito Médio do Doutorado] ), 2 ) ),
+    "Alfa (Proporção de Graduação)", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Alfa] ), 2 ) ),
+    "Beta (Proporção de Mestrado - Equivalente)", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Beta] ), 2 ) ),
+    "Gama (Proporção de Doutorandos – Equivalente)", CALCULATE ( ROUND ( MAX ( 'fIGC'[g_Gama] ), 2 ) ),
+    "Número de instituições (IGC)", [Número de instituições (IGC)],
+	"Indicador", [Medida IGC]
 )
-ORDER BY 
-    'dCalendário'[Ano],
-    d_IES[Sigla]
-

@@ -8,9 +8,10 @@ SUMMARIZECOLUMNS(
     d_IES[Organização Acadêmica],
     dimUnidade[Instituicao],
     dimUnidade[Instituição (Nome)],
-    "Matrícula Equivalente | Formação de Professores (IFs) %", ROUND([Matrícula Equivalente | Formação de Professores (IFs) %]*100,2),
-    "Matrícula Equivalente | Técnicos (IFs) %",ROUND([Matrícula Equivalente | Técnicos (IFs) %]*100,2),
-    "Matrícula Equivalente | Proeja (IFs) %", ROUND([Matrícula Equivalente | Proeja (IFs) %]*100,2)
+    "Matrícula Equivalente | Formação de Professores", ROUND([Matrícula Equivalente | Formação de Professores]*100,2),
+    "Matrícula Equivalente | Técnicos",ROUND([Matrícula Equivalente | Técnicos]*100,2),
+    "Matrícula Equivalente | Proeja", ROUND([Matrícula Equivalente | Proeja]*100,2),
+    "Matrícula Equivalente | Geral", ROUND([Matrícula Equivalente | Geral]*100,2)
 )
 ORDER BY 
     'dCalendário'[Ano],

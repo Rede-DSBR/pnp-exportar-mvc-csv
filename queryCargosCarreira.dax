@@ -8,7 +8,7 @@ SUMMARIZECOLUMNS(
     dimUnidade[Instituicao],
     d_IES[Instituição (Nome)],
     
-    dimCargos[Carreira],
+    dimCarreiras[CarreiraSigla],
 	"Numero de servidores", [Número de servidores (Siafi)] 
 )
 ORDER BY 

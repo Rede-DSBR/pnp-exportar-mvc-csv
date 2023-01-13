@@ -2,18 +2,19 @@
     ViewData["Title"] = "Home Page";
     Layout = "_Layout_inicio";
 }
-
+<v-app id="app">
+    <div class="d-flex">
  <nav class="nav_sidebar ">
 
 
             <div class="menu-items">
-                <ul class="nav-links">
+                <ul class="nav-links" style="padding: 0;">
                     <!-- Dados acâdemicos-->
 
                     <li>
                         <img type="image/svg+xml" src="~/images/inicio.png" />
 
-                        <a href="/">
+                        <a href="/" @@click="overlay = !overlay">
                             <span class="link-name">Início</span>
                         </a>
                     </li>
@@ -21,7 +22,9 @@
                        <li>
                         <img type="image/svg+xml" src="~/images/gestao.png" />
 
-                        <a href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
+                        <a 
+                        @@click="overlay = !overlay"
+                        href="/PnpQuery?Ano=2021&query=queryDadosGerais.dax&titulo=Dados Acadêmicos;Curso, matrícula e oferta">
                             <span class="link-name">Indicadores de Gestão</span>
                         </a>
                     </li>
@@ -29,14 +32,18 @@
                     <li>
                         <img type="image/svg+xml" id="dolar" src="~/images/orcamento.png" />
 
-                      <a href="/PnpQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário" title="Orçamentos">
+                      <a 
+                      @@click="overlay = !overlay"
+                      href="/PnpQuery?Ano=2021&query=queryPanoramaOrcamentario.dax&titulo=Orçamento;Panorama Orcamentário" title="Orçamentos">
                             <span class="link-name">Dados Orçamentários</span>
                         </a>
                     </li>
                     <li>
                         <img  type="image/svg+xml" src="~/images/pessoas.png" />
 
-                        <a href="/PnpQuery?Ano=2021&query=queryCargosCarreira.dax&titulo=Gestão de Pessoas;Cargos da Carreira" title="Gestão de Pessoas">
+                        <a 
+                        @@click="overlay = !overlay"
+                        href="/PnpQuery?Ano=2021&query=queryCargosCarreira.dax&titulo=Gestão de Pessoas;Cargos da Carreira" title="Gestão de Pessoas">
                             <span class="link-name">Dados de Gestão de Pessoas</span>
                         </a>
                     </li>
@@ -45,6 +52,12 @@
             </div>
         </nav>
         </nav>
+        <v-overlay :value="overlay">
+                        <v-progress-circular
+                            indeterminate
+                            size="64"
+                        ></v-progress-circular>
+                    </v-overlay>
 
         <section>
             <div class="container-banner">
@@ -61,3 +74,28 @@
             </div>
             
         </section>
+        </div>
+</v-app>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+    let app = new Vue({
+        el: '#app',
+        vuetify: new Vuetify({
+            icons: {
+                iconFont: "md",
+            },
+        }),
+        data: {
+            overlay: false,                           
+        },
+    watch: {
+    overlay (val) {
+        val && setTimeout(() => {
+        this.overlay = false
+        }, 10000)
+    },
+    }
+})
+</script>

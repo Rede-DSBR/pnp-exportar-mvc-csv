@@ -723,3 +723,8 @@ C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-mvc-csv\o
 C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-mvc-csv\obj\Debug\net6.0\pnp-exportar-mvc-csv.csproj.CopyComplete
 C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-mvc-csv\obj\Debug\net6.0\pnp-exportar-mvc-csv.genruntimeconfig.cache
 C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-mvc-csv\obj\Debug\net6.0\ref\pnp-exportar-mvc-csv.dll
+C:\pnp\pnp-exportar-mvc-csv\obj\Debug\net6.0\staticwebassets\msbuild.pnp-exportar-mvc-csv.Microsoft.AspNetCore.StaticWebAssets.props
+C:\pnp\pnp-exportar-mvc-csv\obj\Debug\net6.0\staticwebassets\msbuild.build.pnp-exportar-mvc-csv.props
+C:\pnp\pnp-exportar-mvc-csv\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.pnp-exportar-mvc-csv.props
+C:\pnp\pnp-exportar-mvc-csv\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.pnp-exportar-mvc-csv.props
+C:\pnp\pnp-exportar-mvc-csv\obj\Debug\net6.0\staticwebassets.pack.json

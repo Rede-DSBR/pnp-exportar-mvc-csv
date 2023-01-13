@@ -66,7 +66,12 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
             </nav>
             <div class="content ml-3">
                 @{
-                    if(ViewBag.Titulo == "Dados Acadêmicos"){
+                    if(ViewBag.Titulo == "Dados Acadêmicos" || 
+                       ViewBag.Titulo == "Percentuais Legais" ||
+                       ViewBag.Titulo == "Indicadores de Acadêmicos" ||
+                       ViewBag.Titulo == "Indicadores de Pessoal" ||
+                       ViewBag.Titulo == "Indicadores de Gastos" ||
+                       ViewBag.Titulo == "Dados INEP"){
                         <div class="container-scroller" id="container">
     <li tabindex="0">
         📘 Dados Acadêmicos
@@ -76,7 +81,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                     title="Curso, matrícula e oferta">Curso, matrícula e oferta</a>
             </li>
             <li>
-                <a href="/PnpQuery?Ano=2021&query=querySituacaoMatricula.dax&titulo=Indicadores de Acadêmicos;Situacao Matricula"
+                <a href="/PnpQuery?Ano=2021&query=querySituacaoMatricula.dax&titulo=Dados Acadêmicos;Situacao Matricula"
                     title="Situação Matricula">Situação Matricula</a>
             </li>
 
@@ -174,6 +179,10 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                 <a href="/PnpQuery?Ano=2021&query=queryIGC.dax&titulo=Dados INEP;Índice Geral de Cursos"
                     title="Índice Geral de Cursos">Índice Geral de Cursos</a>
             </li>
+             <li>
+                <a href="/PnpQuery?Ano=2021&query=queryCPC.dax&titulo=Dados INEP;Conceito Preliminar de Cursos"
+                    title="Conceito Preliminar de Cursos">Conceito Preliminar de Cursos</a>
+            </li>
         </ul>
     </li>
 </div>
@@ -258,6 +267,12 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                             </div>
                         </form>
                     </v-card>
+                    <v-btn plain @@click="toEnd()" v-if="inicioCabecario">
+                            Fim do Cabeçario <v-icon>mdi-arrow-right</v-icon>
+                        </v-btn>
+                        <v-btn plain @@click="toStart()" v-else>
+                            <v-icon>mdi-arrow-left</v-icon> Inicio do Cabeçario
+                        </v-btn>
                     <div 
                     class="d-flex flex-column align-center justify-center" 
                     style="max-width: 1350px">
@@ -267,6 +282,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                             size="64"
                         ></v-progress-circular>
                     </v-overlay>
+                    
                         <v-data-table 
                         :headers="headers" 
                         :items="desserts" 
@@ -291,8 +307,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                             :length="pageCount">
                             @TempData["query"]
                             </v-pagination>
-                            <a asp-action="Download"
-                            title="Relação Aluno Professsor (RAP)">Relação Aluno Professsor (RAP)</a>
+                    
                     </div>
             </div>
 
@@ -367,6 +382,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
 
                         data: {
                             overlay: false,
+                            inicioCabecario: true,
                             page: 1,
                             itemsPerPage: 10,
                             optionsItemsPerPage: [5, 10, 25, 50, 100],
@@ -400,7 +416,7 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                     overlay (val) {
                         val && setTimeout(() => {
                         this.overlay = false
-                        }, 10000)
+                        }, 3250000)
                     },
                     },
                     methods: {
@@ -416,11 +432,19 @@ List<SelectListItem> listaAnos = PopulateAnosPNP();
                                     alert(response.d);
                                 }
                             });
+                        },
+                        toStart: function (){
+                            var dt = document.querySelector('.v-data-table__wrapper');
+                            dt.scrollLeft = 0;
+                            this.inicioCabecario = true;
+                        },
+                        toEnd: function (){
+                            var dt = document.querySelector('.v-data-table__wrapper');
+                            var wd = dt.scrollWidth;
 
-
+                            dt.scrollLeft = wd;
+                            this.inicioCabecario = false;
                         }
-
-
                     }
   }
   )

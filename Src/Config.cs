@@ -8,8 +8,8 @@ public class ConfigEnv
 
     static ConfigEnv() {
         //string Path = "C:\\pnp\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\";
-        Path = @"C:\Users\ricar\Documents\work\programming\csharp\Extrator\pnp-exportar-csv\";
-        PathService = @"C:\Users\ricar\Microsoft\Power BI Desktop Store App\AnalysisServicesWorkspaces";
-        Port = "59936";
+        Path = @"C:\pnp\pnp-exportar-csv\";
+        PathService = @"C:\Users\Pesquisador\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces";
+        Port = "58354";
     }
 }

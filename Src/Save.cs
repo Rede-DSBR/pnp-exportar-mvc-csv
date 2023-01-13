@@ -6,7 +6,7 @@ public class Save
 {
     public async void writeCSV(string arquivo, ArrayList listaPNP, String colunas)
     {
-        string nameFile = ConfigEnv.Path;
+        string nameFile = "C:\\pnp\\pnp-exportar-mvc-csv\\wwwroot\\PnpQuery\\";
         colunas = colunas.ToString().Substring(0, colunas.Length - 1);
         using StreamWriter file = new(nameFile + arquivo);
         await file.WriteLineAsync(colunas);

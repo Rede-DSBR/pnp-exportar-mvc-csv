@@ -70,8 +70,6 @@ public class PnpQueryController : Controller
         string idFile = _ticks.getId();
 
         String arquivo = "PNP" + idFile + ".txt";
-        TempData["query"] = query;
-
 
         ViewBag.Arquivo = "/PnpQuery/" + arquivo;
         ViewBag.registros = listaPNP.Count;
@@ -87,32 +85,5 @@ public class PnpQueryController : Controller
     public IActionResult Error()
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
-
-
-    public IActionResult Download()
-    {
-    FacadeCargaDax facadeCargaDax = new FacadeCargaDax(ConfigEnv.Port, ConfigEnv.PathService);
-    HashSet<string> anos = new HashSet<string>{
-        "2020", "2019"
-    };
-
-    string query = TempData["query"] + "";
-
-    // ArrayList listaPNP = facadeCargaDax.daoPowerBI.executeDaxQueryPNP(query, anos);
-
-    // HashSet<string> atributos = facadeCargaDax.daoPowerBI.listaAtributosQueryDAX(query);
-
-    // string[] sAtributos = _attribute.setAttributes(atributos);
-    // string colunasTabela = _assemble.AssemblingHeaderColumns(sAtributos!)[0];
-    // string colunas = _assemble.AssemblingHeaderColumns(sAtributos!)[1];
-    // colunas = colunas.ToString().Substring(0, colunas.Length - 1);
-    // string content = $"{colunas}\n";
-    // foreach (var line in listaPNP)
-    // {
-    //     content+= $"{line}\n";
-    // };
-
-    return File(Encoding.UTF8.GetBytes(query), "text/plain", "foo.csv");
     }
 }

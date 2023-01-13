@@ -6,17 +6,19 @@ SUMMARIZECOLUMNS(
     d_IES[Estado],
     d_IES[Organização Acadêmica],
     dimUnidade[Instituicao],
-        d_IES[Instituição (Nome)],
+    d_IES[Instituição (Nome)],
+    dimUnidade[nomeUnidadeRecente],
 
    
      
-     "Eficiência Acadêmica | Concluídos", [Eficiência Acadêmica | Concluídos],
-    "Eficiência Acadêmica | Concluídos %", [Eficiência Acadêmica | Concluídos %],
-    "Eficiência Acadêmica | Índice de Eficiência Acadêmica %", [Eficiência Acadêmica | Índice de Eficiência Acadêmica %],
+    "Eficiência Acadêmica | Concluídos",  [Eficiência Acadêmica | Concluídos],
+    "Eficiência Acadêmica | Concluídos %", ROUND([Eficiência Acadêmica | Concluídos %]*100,2),
+    "Eficiência Acadêmica | Índice de Eficiência Acadêmica %", ROUND([Eficiência Acadêmica | Índice de Eficiência Acadêmica %]*100,2),
     "Eficiência Acadêmica | Número de Evadidos", [Eficiência Acadêmica | Número de Evadidos],
     "Eficiência Acadêmica | Retidos", [Eficiência Acadêmica | Retidos],
-    "Eficiência Acadêmica | Retidos %", [Eficiência Acadêmica | Retidos %],
-    "Eficiência Acadêmica | Taxa de Evasão %", [Eficiência Acadêmica | Taxa de Evasão %]
+    "Eficiência Acadêmica | Retidos %", ROUND([Eficiência Acadêmica | Retidos %]*100,2),
+    "Eficiência Acadêmica | Taxa de Evasão %", ROUND([Eficiência Acadêmica | Taxa de Evasão %]*100,2)
+
 )
 ORDER BY 
     'dCalendário'[Ano] ASC,
@@ -25,4 +27,5 @@ ORDER BY
     d_IES[Estado] ASC,
     d_IES[Organização Acadêmica] ASC,
     dimUnidade[Instituicao] ASC,
-    d_IES[Instituição (Nome)] ASC
+    d_IES[Instituição (Nome)] ASC,
+    dimUnidade[nomeUnidadeRecente] ASC
