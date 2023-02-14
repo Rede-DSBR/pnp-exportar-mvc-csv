@@ -9,7 +9,7 @@ SUMMARIZECOLUMNS(
     dimUnidade[Instituicao],
     dimUnidade[Instituição (Nome)],
      KEEPFILTERS( TREATAS( {"Graduação",""}, TipoCurso[Nível Curso] )),
-    KEEPFILTERS( TREATAS( {"Educação Presencial"}, fCPC[ Modalidade de Ensino] )),
+    KEEPFILTERS( TREATAS( {"Educação Presencial"}, fCPC[modalidadeEnsino] )),
     KEEPFILTERS( TREATAS( {"Sem Programa Associado"}, dimFinanciamento[nomeFonteFinanciamentoCorrigido] )),
     "Oferta de Vagas | Curso Noturno", [Oferta de Vagas | Curso Noturno],
     "Oferta de Vagas | Curso Noturno %", ROUND([Oferta de Vagas | Curso Noturno %]*100,2),
